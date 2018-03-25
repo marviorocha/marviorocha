@@ -9,7 +9,8 @@ end
 
 gem 'devise'
 gem 'activeadmin'
-
+gem 'active_skin'
+gem "paperclip"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.5'

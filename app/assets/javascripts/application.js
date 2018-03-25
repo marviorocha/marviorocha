@@ -22,4 +22,4 @@
 //= require js/google_map.js
 //= require js/main.js
 //= require rails-ujs
-//= require turbolinks
+ //= require turbolinks
