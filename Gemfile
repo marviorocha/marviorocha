@@ -11,6 +11,8 @@ gem 'devise'
 gem 'activeadmin'
 gem 'active_skin'
 gem "paperclip"
+gem "font-awesome-rails"
+gem 'ckeditor', github: 'galetahub/ckeditor'
 
 gem 'rails', '~> 5.1.5'
 

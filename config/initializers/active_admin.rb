@@ -4,12 +4,24 @@ ActiveAdmin.setup do |config|
   # Set the title that is displayed on the main layout
   # for each of the active admin pages.
   #
-  config.site_title = "Marviorocha"
+  config.site_title = "Marvio Rocha"
 
   # Set the link url for the title. For example, to take
   # users to your main site. Defaults to no link.
   #
   # config.site_title_link = "/"
+
+
+    config.namespace :admin do |admin|
+      admin.build_menu :utility_navigation do |menu|
+        menu.add label: "Visualizar Site", url: "/",
+                                            html_options: { target: :blank }
+        admin.add_current_user_to_menu  menu
+        admin.add_logout_button_to_menu menu
+      end
+    end
+
+
 
   # Set an optional image to be displayed for the header
   # instead of a string (overrides :site_title)
@@ -262,6 +274,8 @@ ActiveAdmin.setup do |config|
   #
   # config.max_per_page = 10_000
 
+config.register_javascript 'ckeditor/init.js'
+
   # == Filters
   #
   # By default the index screen includes a "Filters" sidebar on the right
@@ -282,7 +296,7 @@ ActiveAdmin.setup do |config|
   # By default, the footer shows the current Active Admin version. You can
   # override the content of the footer here.
   #
-  # config.footer = 'my custom footer text'
+   config.footer = "Development by CMSPro by MarvioRocha.Com  "
 
   # == Sorting
   #

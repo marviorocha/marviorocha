@@ -1,7 +1,11 @@
 class PostsController < ApplicationController
 
+include ApplicationHelper
+
 def index
-  #code
+
+site
+@post = Post.all
 end
 
 end

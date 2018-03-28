@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/galetahub/ckeditor.git
+  revision: dc2cef2c2c3358124ebd86ca2ef2335cc898b41f
+  specs:
+    ckeditor (4.2.4)
+      orm_adapter (~> 0.5.0)
+      terrapin
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -88,6 +96,8 @@ GEM
     erubi (1.7.1)
     execjs (2.7.0)
     ffi (1.9.23)
+    font-awesome-rails (4.7.0.3)
+      railties (>= 3.2, < 5.2)
     formtastic (3.1.5)
       actionpack (>= 3.2.13)
     formtastic_i18n (0.6.0)
@@ -261,8 +271,10 @@ DEPENDENCIES
   activeadmin
   byebug
   capybara (~> 2.13)
+  ckeditor!
   coffee-rails (~> 4.2)
   devise
+  font-awesome-rails
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   paperclip

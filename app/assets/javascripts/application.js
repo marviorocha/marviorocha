@@ -21,5 +21,6 @@
 //= require js/magnific-popup-options.js
 //= require js/google_map.js
 //= require js/main.js
+//= require ckeditor/init
 //= require rails-ujs
  //= require turbolinks
