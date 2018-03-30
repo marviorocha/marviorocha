@@ -1,7 +1,7 @@
 class Post < ApplicationRecord
 
   has_many :category
-   
+ 
 validates :title, presence: true, length: {minimum: 5}
 validates :title, presence: true
 

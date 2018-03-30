@@ -14,13 +14,24 @@
 //= require js/jquery.min.js
 //= require js/jquery.easing.1.3.js
 //= require js/bootstrap.min.js
+//= require jquery_ujs
+//= require jquery.purr
+//= require best_in_place
 //= require js/jquery.waypoints.min.js
 //= require js/jquery.stellar.min.js
 //= require js/jquery.countTo.js
 //= require js/jquery.magnific-popup.min.js
 //= require js/magnific-popup-options.js
+//= require medium-editor/js/medium-editor.min
 //= require js/google_map.js
 //= require js/main.js
-//= require ckeditor/init
 //= require rails-ujs
  //= require turbolinks
+ $(document).ready(function() {
+   /* Activating Best In Place */
+   var editor = new MediumEditor('.editable', {
+       buttonLabels: 'fontawesome'
+   });
+   jQuery(".best_in_place").best_in_place();
+
+ });

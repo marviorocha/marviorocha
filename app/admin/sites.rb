@@ -12,14 +12,25 @@ menu priority: 5, label: "Configuração", url: "/admin/sites/1"
 show do
 
 attributes_table do
-    row :title,  label: 'Titulo do site:'
-    row :site_descricao
-    row :email
-    row :tel, as: :phone, label: "Telefone"
-    row :address, label: 'Endereço:'
-    row :image do
-      site.logo? ? image_tag(site.logo.url, height: '150') : content_tag(:span, "Sem Imagem")
-    end
+  row :title do |project|
+    best_in_place project, :title, as: :input,  url: [:admin,project]
+  end
+  row :site_descricao do |project|
+    best_in_place project, :site_descricao, as: :input,  url: [:admin,project]
+  end
+  row :email do |project|
+    best_in_place project, :email, as: :input,  url: [:admin,project]
+  end
+  row :tel do |project|
+    best_in_place project, :tel, as: :input,  url: [:admin,project]
+  end
+  row :address do |project|
+    best_in_place project, :address, as: :input,  url: [:admin,project]
+  end
+
+  row :image do
+    site.logo? ? image_tag(site.logo.url, height: '150') : content_tag(:span, "Sem Imagem")
+  end
 end
 end
 

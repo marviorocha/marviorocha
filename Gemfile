@@ -14,6 +14,8 @@ gem "paperclip"
 gem "font-awesome-rails"
 gem 'ckeditor', github: 'galetahub/ckeditor'
 
+gem 'jquery-rails'
+gem 'best_in_place'
 gem 'rails', '~> 5.1.5'
 
 gem 'puma', '~> 3.7'
