@@ -15,7 +15,7 @@ set :repo_url, "https://github.com/marviorocha/marviorocha.git"
 set :deploy_to, "/var/www/marviorocha"
 
 append :linked_files, "config/database.yml", "config/secrets.yml"
-append :linked_dirs, "log", "tmp"
+append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "public/system", ".bundle", "public/uploads"
 
 set :keep_releases, 5
 set :migration_role, :app
