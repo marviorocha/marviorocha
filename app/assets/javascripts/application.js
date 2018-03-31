@@ -22,7 +22,7 @@
 //= require js/jquery.countTo.js
 //= require js/jquery.magnific-popup.min.js
 //= require js/magnific-popup-options.js
-//= require medium-editor/js/medium-editor.min
+//= require js/medium-editor.min
 //= require js/google_map.js
 //= require js/main.js
 //= require rails-ujs
