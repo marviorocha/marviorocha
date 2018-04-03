@@ -4,21 +4,24 @@
 // `app/assets/stylesheets/active_admin/mixins/_variables.scss` in the
 // Active Admin source.
 //
-// For example, to change the sidebar width:
-// $sidebar-width: 242px;
+// For example, to change the sidebar width: $sidebar-width: 342px;
 
 // Active Admin's got SASS!
-@import "active_admin/mixins";
-@import "active_admin/base";
+
+@import 'formadmin/formadmin';
+$primary-color: #2b90d9;
 
 $skinActiveColor: #2b90d9;
 $skinHeaderBck: #002744;
 $panelHeaderBck: #002744;
 $skinLogo: url("https://www.adminlabs.com/media/adminlabs-logo.png") no-repeat 0 0;
-@import "active_skin";
+
+
 
 
 // Overriding any non-variable SASS must be done after the fact.
 // For example, to change the default status-tag color:
 //
 //   .status_tag { background: #6090DB; }
+@import 'activeadmin/trumbowyg/ui/sass/trumbowyg';
+@import 'activeadmin/trumbowyg_input';

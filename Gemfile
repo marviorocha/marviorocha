@@ -9,11 +9,10 @@ end
 
 gem 'devise'
 gem 'activeadmin'
-gem 'active_skin'
+gem 'formadmin'
 gem "paperclip"
 gem "font-awesome-rails"
-gem 'ckeditor', github: 'galetahub/ckeditor'
-
+gem 'activeadmin_trumbowyg'
 gem 'jquery-rails'
 gem 'best_in_place'
 gem 'rails', '~> 5.1.6'

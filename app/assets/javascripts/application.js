@@ -22,16 +22,13 @@
 //= require js/jquery.countTo.js
 //= require js/jquery.magnific-popup.min.js
 //= require js/magnific-popup-options.js
-//= require js/medium-editor.min
 //= require js/google_map.js
 //= require js/main.js
 //= require rails-ujs
- //= require turbolinks
- $(document).ready(function() {
-   /* Activating Best In Place */
-   var editor = new MediumEditor('.editable', {
-       buttonLabels: 'fontawesome'
-   });
-   jQuery(".best_in_place").best_in_place();
+//= require turbolinks
 
+ $(document).ready(function() {
+
+   /* Activating Best In Place */
+   jQuery(".best_in_place").best_in_place();
  });

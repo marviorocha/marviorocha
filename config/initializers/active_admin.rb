@@ -274,7 +274,7 @@ ActiveAdmin.setup do |config|
   #
   # config.max_per_page = 10_000
 
-config.register_javascript 'ckeditor/init.js'
+ 
 
   # == Filters
   #

@@ -27,7 +27,7 @@ end
 form do |f|
 		f.inputs do
     f.input :name, label: "Digite o nome"
-    f.input :code, as: :ckeditor
+    f.input :code, as: :trumbowyg  
     end
     f.actions
 end
