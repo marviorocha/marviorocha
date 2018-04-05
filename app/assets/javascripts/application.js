@@ -11,19 +11,19 @@
 // about supported directives.
 //
 
-//= require js/jquery.min.js
-//= require js/jquery.easing.1.3.js
-//= require js/bootstrap.min.js
+//= require js/jquery.min
+//= require js/jquery.easing.1.3
+//= require js/bootstrap.min
 //= require jquery_ujs
 //= require jquery.purr
 //= require best_in_place
-//= require js/jquery.waypoints.min.js
-//= require js/jquery.stellar.min.js
-//= require js/jquery.countTo.js
-//= require js/jquery.magnific-popup.min.js
-//= require js/magnific-popup-options.js
-//= require js/google_map.js
-//= require js/main.js
+//= require js/jquery.waypoints.min
+//= require js/jquery.stellar.min
+//= require js/jquery.countTo
+//= require js/jquery.magnific-popup.min
+//= require js/magnific-popup-options
+//= require js/google_map
+//= require js/main
 //= require rails-ujs
 //= require turbolinks
 

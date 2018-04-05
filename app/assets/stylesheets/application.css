@@ -23,6 +23,3 @@
   *= require font-awesome
   *= require_self
   */
-  @import "bootstrap";
-  @import "summernote-bs4";
-  @import "summernote-custom-theme.min";
