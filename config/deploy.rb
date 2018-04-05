@@ -17,7 +17,7 @@ set :deploy_to, "/var/www/marviorocha"
 append :linked_files, "config/database.yml", "config/secrets.yml"
 append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "public/system", ".bundle", "public/uploads"
 
-set :keep_releases, 5
+set :keep_releases, 3
 set :migration_role, :app
 
 
@@ -28,19 +28,19 @@ set :puma_bind, "unix://#{shared_path}/tmp/sockets/puma.sock"
 set :puma_access_log, "#{shared_path}/log/puma_access.log"
 set :puma_error_log, "#{shared_path}/log/puma_error.log"
 
-namespace :deploy do
-  desc 'Runs rake db:seed for SeedMigrations data'
-  task :seed => [:set_rails_env] do
-    on primary fetch(:migration_role) do
-      within release_path do
-        with rails_env: fetch(:rails_env) do
-          execute :rake, "db:seed"
-        end
-      end
-    end
-  end
-  after 'deploy:migrate', 'deploy:seed'
-end
+# namespace :deploy do
+#   desc 'Runs rake db:seed for SeedMigrations data'
+#   task :seed => [:set_rails_env] do
+#     on primary fetch(:migration_role) do
+#       within release_path do
+#         with rails_env: fetch(:rails_env) do
+#           execute :rake, "db:seed"
+#         end
+#       end
+#     end
+#   end
+#   after 'deploy:migrate', 'deploy:seed'
+# end
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
