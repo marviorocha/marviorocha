@@ -7,7 +7,9 @@ end
 
 def snip(name)
 
-Snippet.snippet(name)
+@show = Snippet.find_by_name!(name)rescue nil
+
+raw @show.code rescue nil
 
 end
 

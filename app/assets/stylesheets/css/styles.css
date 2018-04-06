@@ -1,4 +1,4 @@
-/*   
+/*
  * Template Name: Developer - Responsive Website Template for Developers
  * Version: 1.5
  * Author: Xiaoying Riley
@@ -26,7 +26,7 @@ h6 {
   color: #778492;
 }
 a {
-  color: #3AAA64;
+  color: #4ea2da;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -35,7 +35,7 @@ a {
 a:hover {
   text-decoration: underline;
   color: #5f6b77;
-  color: #2d844e;
+  color: #115E85;
 }
 a:focus {
   text-decoration: none;
@@ -90,7 +90,7 @@ a.btn-cta-secondary:hover,
   color: #32383e;
 }
 .label-theme {
-  background: #3AAA64;
+  background: #4ea2da;
   font-size: 12px;
 }
 a.dotted-link {
@@ -118,7 +118,7 @@ iframe {
 .header {
   padding: 30px 0;
   background: #f5f5f5;
-  border-top: 10px solid #778492;
+  border-top: 10px solid #4EA2DA;
 }
 .header .btn {
   margin-top: 60px;
@@ -234,7 +234,7 @@ iframe {
   position: relative;
 }
 .latest .featured-image .text {
-  background: #3AAA64;
+  background: #4ea2da;
   color: #fff;
 }
 .latest .featured-image .ribbon {
@@ -381,7 +381,7 @@ iframe {
 }
 .skills .skillset .level-bar-inner {
   height: 15px;
-  background: #66cb8c;
+  background: #4EA2DA;
 }
 /* Testimonials section */
 .testimonials .item {
@@ -393,11 +393,11 @@ iframe {
 .testimonials .item .quote {
   color: #666;
   font-size: 16px;
-  border-left-color: #9fdeb7;
+  border-left-color: #95cef4;
   margin-bottom: 15px;
 }
 .testimonials .item .quote .fa {
-  color: #79d19a;
+  color: #4EA2DA;
   margin-right: 15px;
 }
 .testimonials .item .source {
