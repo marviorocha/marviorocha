@@ -1,51 +1,49 @@
+  <div class="container sections-wrapper">
+  <div class="row">
+  <div class="primary col-md-8 col-sm-12 col-xs-12">
+  <section class="about section">
+  <div class="section-inner">
 
-	<section id="fh5co-home" data-section="home" style="background-image: url(images/full_image_2.jpg);" data-stellar-background-ratio="0.5">
-		<div class="gradient"></div>
-		<div class="container">
-			<div class="text-wrap">
-				<div class="text-inner">
+  <%= raw snip('about').code %>
 
-			  <!-- <div class="row editable">
-						<div class="col-md-8 col-md-offset-2">
-							<h1 class="to-animate">Do something you love.</h1>
-							<h2 class="to-animate">Another free HTML5 bootstrap template by <a href="http://freehtml5.co/" target="_blank" title="Free HTML5 Bootstrap Templates">FREEHTML5.co</a> released under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons 3.0</a></h2>
-						</div>
-					</div> -->
+  </div><!--//section-inner-->
+  </section><!--//section-->
 
- <%= raw snip("front_page").code %>
-
-							</div>
-			</div>
-		</div>
-		<div class="slant"></div>
-	</section>
-
-	<section id="fh5co-intro">
-<%= render "/pages/plan" %>
-	</section>
+  <%= render "pages/project" %>
 
 
-<%= render "/pages/work" %>
+  <section class="projects section">
+<div class="section-inner">
 
-	<section id="fh5co-testimonials" data-section="testimonials">
-<%= render "/pages/testimunials" %>
-	</section>
+  <%= render "pages/other" %>
+
+  </div><!--//section-inner-->
+  </section><!--//section-->
+
+  <section class="experience section">
+  <div class="section-inner">
+
+  <%= render "pages/work" %>
+
+  </div><!--//section-inner-->
+  </section><!--//section-->
+  <section class="github section">
+  <div class="section-inner">
+
+ <%= render "pages/github" %>
+
+  </div><!--//secton-inner-->
+  </section><!--//section-->
+  </div><!--//primary-->
+  <div class="secondary col-md-4 col-sm-12 col-xs-12">
+  <aside class="info aside section">
+  <div class="section-inner">
+
+<%= render "pages/information" %>
 
 
-	<section id="fh5co-services" data-section="services">
-<%= render "/pages/servico" %>
-	</section>
+  </div><!--//section-inner-->
+  </aside><!--//aside-->
 
-	<section id="fh5co-about" data-section="about">
-<%= render "/pages/about" %>
-	</section>
 
-	<section id="fh5co-counters" style="background-image: url(images/full_image_1.jpg);" data-stellar-background-ratio="0.5">
-		<div class="fh5co-overlay"></div>
-<%= render "/pages/status" %>
-	</section>
-
-	<section id="fh5co-contact" data-section="contact">
-	<%= render "/pages/address" %>
-		<div id="map" class="to-animate"></div>
-	</section>
+<%= render "pages/sidebar" %>

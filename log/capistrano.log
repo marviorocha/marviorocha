@@ -2248,3 +2248,282 @@ Caused by:
 /home/deploy/.rvm/gems/ruby-2.5.0/bin/ruby_executable_hooks:15:in `<main>'
  DEBUG [be265194] 	Tasks: TOP => db:seed
  DEBUG [be265194] 	(See full trace by running task with --trace)
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-04-05 17:27:13 -0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [5e27aa91] Running /usr/bin/env which passenger as deploy@35.231.126.217
+ DEBUG [5e27aa91] Command: /usr/bin/env which passenger
+ DEBUG [5e27aa91] 	/usr/bin/passenger
+ DEBUG [5e27aa91] Finished in 9.604 seconds with exit status 0 (successful).
+ DEBUG [fcbc1d52] Running [ -d ~/.rvm ] as deploy@35.231.126.217
+ DEBUG [fcbc1d52] Command: [ -d ~/.rvm ]
+ DEBUG [fcbc1d52] Finished in 0.527 seconds with exit status 0 (successful).
+ DEBUG [768f1444] Running ~/.rvm/bin/rvm version as deploy@35.231.126.217
+ DEBUG [768f1444] Command: ~/.rvm/bin/rvm version
+ DEBUG [768f1444] 	rvm 1.29.3 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [768f1444] Finished in 0.746 seconds with exit status 0 (successful).
+ DEBUG [72177ea4] Running ~/.rvm/bin/rvm current as deploy@35.231.126.217
+ DEBUG [72177ea4] Command: ~/.rvm/bin/rvm current
+ DEBUG [72177ea4] 	ruby-2.5.0
+ DEBUG [72177ea4] Finished in 0.763 seconds with exit status 0 (successful).
+ DEBUG [47e2a49a] Running ~/.rvm/bin/rvm default do ruby --version as deploy@35.231.126.217
+ DEBUG [47e2a49a] Command: ~/.rvm/bin/rvm default do ruby --version
+ DEBUG [47e2a49a] 	ruby 2.5.0p0 (2017-12-25 revision 61468) [x86_64-linux]
+ DEBUG [47e2a49a] Finished in 0.913 seconds with exit status 0 (successful).
+  INFO [c2e10bcb] Running /usr/bin/env mkdir -p /tmp as deploy@35.231.126.217
+ DEBUG [c2e10bcb] Command: /usr/bin/env mkdir -p /tmp
+  INFO [c2e10bcb] Finished in 0.537 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-Marviorocha-production-marviorocha.sh 0.0%
+  INFO Uploading /tmp/git-ssh-Marviorocha-production-marviorocha.sh 100.0%
+  INFO [96df4dd7] Running /usr/bin/env chmod 700 /tmp/git-ssh-Marviorocha-production-marviorocha.sh as deploy@35.231.126.217
+ DEBUG [96df4dd7] Command: /usr/bin/env chmod 700 /tmp/git-ssh-Marviorocha-production-marviorocha.sh
+  INFO [96df4dd7] Finished in 0.530 seconds with exit status 0 (successful).
+  INFO [c15f636c] Running /usr/bin/env git ls-remote https://github.com/marviorocha/marviorocha.git HEAD as deploy@35.231.126.217
+ DEBUG [c15f636c] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Marviorocha-production-marviorocha.sh" ; /usr/bin/env git ls-remote https://github.com/marviorocha/marviorocha.git HEAD )
+ DEBUG [c15f636c] 	37d9938deefbf0a3cbae5e9d03d91fd3ecabb3fe	HEAD
+  INFO [c15f636c] Finished in 0.818 seconds with exit status 0 (successful).
+  INFO [ca6b2281] Running /usr/bin/env mkdir -p /var/www/marviorocha/shared /var/www/marviorocha/releases as deploy@35.231.126.217
+ DEBUG [ca6b2281] Command: /usr/bin/env mkdir -p /var/www/marviorocha/shared /var/www/marviorocha/releases
+  INFO [ca6b2281] Finished in 0.532 seconds with exit status 0 (successful).
+  INFO [ee5a30b4] Running /usr/bin/env mkdir -p /var/www/marviorocha/shared/log /var/www/marviorocha/shared/tmp/pids /var/www/marviorocha/shared/tmp/cache /var/www/marviorocha/shared/tmp/sockets /var/www/marviorocha/shared/public/system /var/www/marviorocha/shared/.bundle /var/www/marviorocha/shared/public/uploads /var/www/marviorocha/shared/public/assets as deploy@35.231.126.217
+ DEBUG [ee5a30b4] Command: /usr/bin/env mkdir -p /var/www/marviorocha/shared/log /var/www/marviorocha/shared/tmp/pids /var/www/marviorocha/shared/tmp/cache /var/www/marviorocha/shared/tmp/sockets /var/www/marviorocha/shared/public/system /var/www/marviorocha/shared/.bundle /var/www/marviorocha/shared/public/uploads /var/www/marviorocha/shared/public/assets
+  INFO [ee5a30b4] Finished in 0.553 seconds with exit status 0 (successful).
+  INFO [da87295f] Running /usr/bin/env mkdir -p /var/www/marviorocha/shared/config as deploy@35.231.126.217
+ DEBUG [da87295f] Command: /usr/bin/env mkdir -p /var/www/marviorocha/shared/config
+  INFO [da87295f] Finished in 0.527 seconds with exit status 0 (successful).
+ DEBUG [36695b92] Running [ -f /var/www/marviorocha/shared/config/database.yml ] as deploy@35.231.126.217
+ DEBUG [36695b92] Command: [ -f /var/www/marviorocha/shared/config/database.yml ]
+ DEBUG [36695b92] Finished in 0.539 seconds with exit status 0 (successful).
+ DEBUG [0612ba04] Running [ -f /var/www/marviorocha/shared/config/secrets.yml ] as deploy@35.231.126.217
+ DEBUG [0612ba04] Command: [ -f /var/www/marviorocha/shared/config/secrets.yml ]
+ DEBUG [0612ba04] Finished in 0.543 seconds with exit status 0 (successful).
+ DEBUG [b3df1644] Running [ -f /var/www/marviorocha/current/REVISION ] as deploy@35.231.126.217
+ DEBUG [b3df1644] Command: [ -f /var/www/marviorocha/current/REVISION ]
+ DEBUG [b3df1644] Finished in 0.534 seconds with exit status 1 (failed).
+ DEBUG [6edb2679] Running [ -f /var/www/marviorocha/repo/HEAD ] as deploy@35.231.126.217
+ DEBUG [6edb2679] Command: [ -f /var/www/marviorocha/repo/HEAD ]
+ DEBUG [6edb2679] Finished in 0.556 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/marviorocha/repo
+ DEBUG [9e351e40] Running if test ! -d /var/www/marviorocha/repo; then echo "Directory does not exist '/var/www/marviorocha/repo'" 1>&2; false; fi as deploy@35.231.126.217
+ DEBUG [9e351e40] Command: if test ! -d /var/www/marviorocha/repo; then echo "Directory does not exist '/var/www/marviorocha/repo'" 1>&2; false; fi
+ DEBUG [9e351e40] Finished in 0.522 seconds with exit status 0 (successful).
+  INFO [3ea05479] Running /usr/bin/env git remote set-url origin https://github.com/marviorocha/marviorocha.git as deploy@35.231.126.217
+ DEBUG [3ea05479] Command: cd /var/www/marviorocha/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Marviorocha-production-marviorocha.sh" ; /usr/bin/env git remote set-url origin https://github.com/marviorocha/marviorocha.git )
+  INFO [3ea05479] Finished in 0.537 seconds with exit status 0 (successful).
+  INFO [1f711037] Running /usr/bin/env git remote update --prune as deploy@35.231.126.217
+ DEBUG [1f711037] Command: cd /var/www/marviorocha/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Marviorocha-production-marviorocha.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [1f711037] 	Fetching origin
+ DEBUG [1f711037] 	From https://github.com/marviorocha/marviorocha
+   473e687..37d9938  master     -> master
+  INFO [1f711037] Finished in 0.865 seconds with exit status 0 (successful).
+ DEBUG [0fa3e271] Running if test ! -d /var/www/marviorocha/repo; then echo "Directory does not exist '/var/www/marviorocha/repo'" 1>&2; false; fi as deploy@35.231.126.217
+ DEBUG [0fa3e271] Command: if test ! -d /var/www/marviorocha/repo; then echo "Directory does not exist '/var/www/marviorocha/repo'" 1>&2; false; fi
+ DEBUG [0fa3e271] Finished in 0.522 seconds with exit status 0 (successful).
+  INFO [a4439105] Running /usr/bin/env mkdir -p /var/www/marviorocha/releases/20180405202732 as deploy@35.231.126.217
+ DEBUG [a4439105] Command: cd /var/www/marviorocha/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Marviorocha-production-marviorocha.sh" ; /usr/bin/env mkdir -p /var/www/marviorocha/releases/20180405202732 )
+  INFO [a4439105] Finished in 0.528 seconds with exit status 0 (successful).
+  INFO [8e544a83] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/marviorocha/releases/20180405202732 as deploy@35.231.126.217
+ DEBUG [8e544a83] Command: cd /var/www/marviorocha/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Marviorocha-production-marviorocha.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/marviorocha/releases/20180405202732 )
+  INFO [8e544a83] Finished in 0.732 seconds with exit status 0 (successful).
+ DEBUG [db097b69] Running if test ! -d /var/www/marviorocha/repo; then echo "Directory does not exist '/var/www/marviorocha/repo'" 1>&2; false; fi as deploy@35.231.126.217
+ DEBUG [db097b69] Command: if test ! -d /var/www/marviorocha/repo; then echo "Directory does not exist '/var/www/marviorocha/repo'" 1>&2; false; fi
+ DEBUG [db097b69] Finished in 0.532 seconds with exit status 0 (successful).
+ DEBUG [4c828095] Running /usr/bin/env git rev-list --max-count=1 master as deploy@35.231.126.217
+ DEBUG [4c828095] Command: cd /var/www/marviorocha/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-Marviorocha-production-marviorocha.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [4c828095] 	37d9938deefbf0a3cbae5e9d03d91fd3ecabb3fe
+ DEBUG [4c828095] Finished in 0.590 seconds with exit status 0 (successful).
+ DEBUG [bd1ed37b] Running if test ! -d /var/www/marviorocha/releases/20180405202732; then echo "Directory does not exist '/var/www/marviorocha/releases/20180405202732'" 1>&2; false; fi as deploy@35.231.126.217
+ DEBUG [bd1ed37b] Command: if test ! -d /var/www/marviorocha/releases/20180405202732; then echo "Directory does not exist '/var/www/marviorocha/releases/20180405202732'" 1>&2; false; fi
+ DEBUG [bd1ed37b] Finished in 0.519 seconds with exit status 0 (successful).
+  INFO [db3fa5b4] Running /usr/bin/env echo "37d9938deefbf0a3cbae5e9d03d91fd3ecabb3fe" >> REVISION as deploy@35.231.126.217
+ DEBUG [db3fa5b4] Command: cd /var/www/marviorocha/releases/20180405202732 && /usr/bin/env echo "37d9938deefbf0a3cbae5e9d03d91fd3ecabb3fe" >> REVISION
+  INFO [db3fa5b4] Finished in 0.533 seconds with exit status 0 (successful).
+  INFO [b654bcd5] Running /usr/bin/env mkdir -p /var/www/marviorocha/releases/20180405202732/config as deploy@35.231.126.217
+ DEBUG [b654bcd5] Command: /usr/bin/env mkdir -p /var/www/marviorocha/releases/20180405202732/config
+  INFO [b654bcd5] Finished in 0.543 seconds with exit status 0 (successful).
+ DEBUG [03de3c33] Running [ -L /var/www/marviorocha/releases/20180405202732/config/database.yml ] as deploy@35.231.126.217
+ DEBUG [03de3c33] Command: [ -L /var/www/marviorocha/releases/20180405202732/config/database.yml ]
+ DEBUG [03de3c33] Finished in 0.530 seconds with exit status 1 (failed).
+ DEBUG [74589d5e] Running [ -f /var/www/marviorocha/releases/20180405202732/config/database.yml ] as deploy@35.231.126.217
+ DEBUG [74589d5e] Command: [ -f /var/www/marviorocha/releases/20180405202732/config/database.yml ]
+ DEBUG [74589d5e] Finished in 0.545 seconds with exit status 0 (successful).
+  INFO [1fb14897] Running /usr/bin/env rm /var/www/marviorocha/releases/20180405202732/config/database.yml as deploy@35.231.126.217
+ DEBUG [1fb14897] Command: /usr/bin/env rm /var/www/marviorocha/releases/20180405202732/config/database.yml
+  INFO [1fb14897] Finished in 0.550 seconds with exit status 0 (successful).
+  INFO [36d2cfd7] Running /usr/bin/env ln -s /var/www/marviorocha/shared/config/database.yml /var/www/marviorocha/releases/20180405202732/config/database.yml as deploy@35.231.126.217
+ DEBUG [36d2cfd7] Command: /usr/bin/env ln -s /var/www/marviorocha/shared/config/database.yml /var/www/marviorocha/releases/20180405202732/config/database.yml
+  INFO [36d2cfd7] Finished in 0.529 seconds with exit status 0 (successful).
+ DEBUG [5f4b12df] Running [ -L /var/www/marviorocha/releases/20180405202732/config/secrets.yml ] as deploy@35.231.126.217
+ DEBUG [5f4b12df] Command: [ -L /var/www/marviorocha/releases/20180405202732/config/secrets.yml ]
+ DEBUG [5f4b12df] Finished in 0.545 seconds with exit status 1 (failed).
+ DEBUG [1c8f9705] Running [ -f /var/www/marviorocha/releases/20180405202732/config/secrets.yml ] as deploy@35.231.126.217
+ DEBUG [1c8f9705] Command: [ -f /var/www/marviorocha/releases/20180405202732/config/secrets.yml ]
+ DEBUG [1c8f9705] Finished in 0.524 seconds with exit status 0 (successful).
+  INFO [9215517f] Running /usr/bin/env rm /var/www/marviorocha/releases/20180405202732/config/secrets.yml as deploy@35.231.126.217
+ DEBUG [9215517f] Command: /usr/bin/env rm /var/www/marviorocha/releases/20180405202732/config/secrets.yml
+  INFO [9215517f] Finished in 0.554 seconds with exit status 0 (successful).
+  INFO [0fd1967a] Running /usr/bin/env ln -s /var/www/marviorocha/shared/config/secrets.yml /var/www/marviorocha/releases/20180405202732/config/secrets.yml as deploy@35.231.126.217
+ DEBUG [0fd1967a] Command: /usr/bin/env ln -s /var/www/marviorocha/shared/config/secrets.yml /var/www/marviorocha/releases/20180405202732/config/secrets.yml
+  INFO [0fd1967a] Finished in 0.533 seconds with exit status 0 (successful).
+  INFO [a7ab47a2] Running /usr/bin/env mkdir -p /var/www/marviorocha/releases/20180405202732 /var/www/marviorocha/releases/20180405202732/tmp /var/www/marviorocha/releases/20180405202732/public as deploy@35.231.126.217
+ DEBUG [a7ab47a2] Command: /usr/bin/env mkdir -p /var/www/marviorocha/releases/20180405202732 /var/www/marviorocha/releases/20180405202732/tmp /var/www/marviorocha/releases/20180405202732/public
+  INFO [a7ab47a2] Finished in 0.536 seconds with exit status 0 (successful).
+ DEBUG [1017ed0a] Running [ -L /var/www/marviorocha/releases/20180405202732/log ] as deploy@35.231.126.217
+ DEBUG [1017ed0a] Command: [ -L /var/www/marviorocha/releases/20180405202732/log ]
+ DEBUG [1017ed0a] Finished in 0.550 seconds with exit status 1 (failed).
+ DEBUG [9a704fc4] Running [ -d /var/www/marviorocha/releases/20180405202732/log ] as deploy@35.231.126.217
+ DEBUG [9a704fc4] Command: [ -d /var/www/marviorocha/releases/20180405202732/log ]
+ DEBUG [9a704fc4] Finished in 0.531 seconds with exit status 0 (successful).
+  INFO [72556594] Running /usr/bin/env rm -rf /var/www/marviorocha/releases/20180405202732/log as deploy@35.231.126.217
+ DEBUG [72556594] Command: /usr/bin/env rm -rf /var/www/marviorocha/releases/20180405202732/log
+  INFO [72556594] Finished in 0.537 seconds with exit status 0 (successful).
+  INFO [82221437] Running /usr/bin/env ln -s /var/www/marviorocha/shared/log /var/www/marviorocha/releases/20180405202732/log as deploy@35.231.126.217
+ DEBUG [82221437] Command: /usr/bin/env ln -s /var/www/marviorocha/shared/log /var/www/marviorocha/releases/20180405202732/log
+  INFO [82221437] Finished in 0.536 seconds with exit status 0 (successful).
+ DEBUG [f91c0db4] Running [ -L /var/www/marviorocha/releases/20180405202732/tmp/pids ] as deploy@35.231.126.217
+ DEBUG [f91c0db4] Command: [ -L /var/www/marviorocha/releases/20180405202732/tmp/pids ]
+ DEBUG [f91c0db4] Finished in 0.528 seconds with exit status 1 (failed).
+ DEBUG [82e69217] Running [ -d /var/www/marviorocha/releases/20180405202732/tmp/pids ] as deploy@35.231.126.217
+ DEBUG [82e69217] Command: [ -d /var/www/marviorocha/releases/20180405202732/tmp/pids ]
+ DEBUG [82e69217] Finished in 0.530 seconds with exit status 1 (failed).
+  INFO [cc42ad8c] Running /usr/bin/env ln -s /var/www/marviorocha/shared/tmp/pids /var/www/marviorocha/releases/20180405202732/tmp/pids as deploy@35.231.126.217
+ DEBUG [cc42ad8c] Command: /usr/bin/env ln -s /var/www/marviorocha/shared/tmp/pids /var/www/marviorocha/releases/20180405202732/tmp/pids
+  INFO [cc42ad8c] Finished in 0.557 seconds with exit status 0 (successful).
+ DEBUG [887d7733] Running [ -L /var/www/marviorocha/releases/20180405202732/tmp/cache ] as deploy@35.231.126.217
+ DEBUG [887d7733] Command: [ -L /var/www/marviorocha/releases/20180405202732/tmp/cache ]
+ DEBUG [887d7733] Finished in 0.526 seconds with exit status 1 (failed).
+ DEBUG [6c51a3bc] Running [ -d /var/www/marviorocha/releases/20180405202732/tmp/cache ] as deploy@35.231.126.217
+ DEBUG [6c51a3bc] Command: [ -d /var/www/marviorocha/releases/20180405202732/tmp/cache ]
+ DEBUG [6c51a3bc] Finished in 0.531 seconds with exit status 1 (failed).
+  INFO [9b1108a0] Running /usr/bin/env ln -s /var/www/marviorocha/shared/tmp/cache /var/www/marviorocha/releases/20180405202732/tmp/cache as deploy@35.231.126.217
+ DEBUG [9b1108a0] Command: /usr/bin/env ln -s /var/www/marviorocha/shared/tmp/cache /var/www/marviorocha/releases/20180405202732/tmp/cache
+  INFO [9b1108a0] Finished in 0.522 seconds with exit status 0 (successful).
+ DEBUG [cc68ef78] Running [ -L /var/www/marviorocha/releases/20180405202732/tmp/sockets ] as deploy@35.231.126.217
+ DEBUG [cc68ef78] Command: [ -L /var/www/marviorocha/releases/20180405202732/tmp/sockets ]
+ DEBUG [cc68ef78] Finished in 0.520 seconds with exit status 1 (failed).
+ DEBUG [5a44fa26] Running [ -d /var/www/marviorocha/releases/20180405202732/tmp/sockets ] as deploy@35.231.126.217
+ DEBUG [5a44fa26] Command: [ -d /var/www/marviorocha/releases/20180405202732/tmp/sockets ]
+ DEBUG [5a44fa26] Finished in 0.517 seconds with exit status 1 (failed).
+  INFO [8353e4cc] Running /usr/bin/env ln -s /var/www/marviorocha/shared/tmp/sockets /var/www/marviorocha/releases/20180405202732/tmp/sockets as deploy@35.231.126.217
+ DEBUG [8353e4cc] Command: /usr/bin/env ln -s /var/www/marviorocha/shared/tmp/sockets /var/www/marviorocha/releases/20180405202732/tmp/sockets
+  INFO [8353e4cc] Finished in 0.543 seconds with exit status 0 (successful).
+ DEBUG [8fb03528] Running [ -L /var/www/marviorocha/releases/20180405202732/public/system ] as deploy@35.231.126.217
+ DEBUG [8fb03528] Command: [ -L /var/www/marviorocha/releases/20180405202732/public/system ]
+ DEBUG [8fb03528] Finished in 0.522 seconds with exit status 1 (failed).
+ DEBUG [03158070] Running [ -d /var/www/marviorocha/releases/20180405202732/public/system ] as deploy@35.231.126.217
+ DEBUG [03158070] Command: [ -d /var/www/marviorocha/releases/20180405202732/public/system ]
+ DEBUG [03158070] Finished in 0.520 seconds with exit status 0 (successful).
+  INFO [142b0911] Running /usr/bin/env rm -rf /var/www/marviorocha/releases/20180405202732/public/system as deploy@35.231.126.217
+ DEBUG [142b0911] Command: /usr/bin/env rm -rf /var/www/marviorocha/releases/20180405202732/public/system
+  INFO [142b0911] Finished in 0.522 seconds with exit status 0 (successful).
+  INFO [92a9dace] Running /usr/bin/env ln -s /var/www/marviorocha/shared/public/system /var/www/marviorocha/releases/20180405202732/public/system as deploy@35.231.126.217
+ DEBUG [92a9dace] Command: /usr/bin/env ln -s /var/www/marviorocha/shared/public/system /var/www/marviorocha/releases/20180405202732/public/system
+  INFO [92a9dace] Finished in 0.523 seconds with exit status 0 (successful).
+ DEBUG [361a3462] Running [ -L /var/www/marviorocha/releases/20180405202732/.bundle ] as deploy@35.231.126.217
+ DEBUG [361a3462] Command: [ -L /var/www/marviorocha/releases/20180405202732/.bundle ]
+ DEBUG [361a3462] Finished in 0.521 seconds with exit status 1 (failed).
+ DEBUG [62ba8338] Running [ -d /var/www/marviorocha/releases/20180405202732/.bundle ] as deploy@35.231.126.217
+ DEBUG [62ba8338] Command: [ -d /var/www/marviorocha/releases/20180405202732/.bundle ]
+ DEBUG [62ba8338] Finished in 0.519 seconds with exit status 1 (failed).
+  INFO [4191b189] Running /usr/bin/env ln -s /var/www/marviorocha/shared/.bundle /var/www/marviorocha/releases/20180405202732/.bundle as deploy@35.231.126.217
+ DEBUG [4191b189] Command: /usr/bin/env ln -s /var/www/marviorocha/shared/.bundle /var/www/marviorocha/releases/20180405202732/.bundle
+  INFO [4191b189] Finished in 0.522 seconds with exit status 0 (successful).
+ DEBUG [45354b77] Running [ -L /var/www/marviorocha/releases/20180405202732/public/uploads ] as deploy@35.231.126.217
+ DEBUG [45354b77] Command: [ -L /var/www/marviorocha/releases/20180405202732/public/uploads ]
+ DEBUG [45354b77] Finished in 0.525 seconds with exit status 1 (failed).
+ DEBUG [ecbeb425] Running [ -d /var/www/marviorocha/releases/20180405202732/public/uploads ] as deploy@35.231.126.217
+ DEBUG [ecbeb425] Command: [ -d /var/www/marviorocha/releases/20180405202732/public/uploads ]
+ DEBUG [ecbeb425] Finished in 0.531 seconds with exit status 1 (failed).
+  INFO [7dccaabb] Running /usr/bin/env ln -s /var/www/marviorocha/shared/public/uploads /var/www/marviorocha/releases/20180405202732/public/uploads as deploy@35.231.126.217
+ DEBUG [7dccaabb] Command: /usr/bin/env ln -s /var/www/marviorocha/shared/public/uploads /var/www/marviorocha/releases/20180405202732/public/uploads
+  INFO [7dccaabb] Finished in 0.533 seconds with exit status 0 (successful).
+ DEBUG [d96ae77a] Running [ -L /var/www/marviorocha/releases/20180405202732/public/assets ] as deploy@35.231.126.217
+ DEBUG [d96ae77a] Command: [ -L /var/www/marviorocha/releases/20180405202732/public/assets ]
+ DEBUG [d96ae77a] Finished in 0.527 seconds with exit status 1 (failed).
+ DEBUG [2ac10e58] Running [ -d /var/www/marviorocha/releases/20180405202732/public/assets ] as deploy@35.231.126.217
+ DEBUG [2ac10e58] Command: [ -d /var/www/marviorocha/releases/20180405202732/public/assets ]
+ DEBUG [2ac10e58] Finished in 0.533 seconds with exit status 0 (successful).
+  INFO [d25e6308] Running /usr/bin/env rm -rf /var/www/marviorocha/releases/20180405202732/public/assets as deploy@35.231.126.217
+ DEBUG [d25e6308] Command: /usr/bin/env rm -rf /var/www/marviorocha/releases/20180405202732/public/assets
+  INFO [d25e6308] Finished in 0.589 seconds with exit status 0 (successful).
+  INFO [46d8be4a] Running /usr/bin/env ln -s /var/www/marviorocha/shared/public/assets /var/www/marviorocha/releases/20180405202732/public/assets as deploy@35.231.126.217
+ DEBUG [46d8be4a] Command: /usr/bin/env ln -s /var/www/marviorocha/shared/public/assets /var/www/marviorocha/releases/20180405202732/public/assets
+  INFO [46d8be4a] Finished in 0.530 seconds with exit status 0 (successful).
+ DEBUG [fa80f0d0] Running if test ! -d /var/www/marviorocha/releases/20180405202732; then echo "Directory does not exist '/var/www/marviorocha/releases/20180405202732'" 1>&2; false; fi as deploy@35.231.126.217
+ DEBUG [fa80f0d0] Command: if test ! -d /var/www/marviorocha/releases/20180405202732; then echo "Directory does not exist '/var/www/marviorocha/releases/20180405202732'" 1>&2; false; fi
+ DEBUG [fa80f0d0] Finished in 0.529 seconds with exit status 0 (successful).
+ DEBUG [dc871acd] Running ~/.rvm/bin/rvm default do bundle check --path /var/www/marviorocha/shared/bundle as deploy@35.231.126.217
+ DEBUG [dc871acd] Command: cd /var/www/marviorocha/releases/20180405202732 && ~/.rvm/bin/rvm default do bundle check --path /var/www/marviorocha/shared/bundle
+ DEBUG [dc871acd] 	The Gemfile's dependencies are satisfied
+ DEBUG [dc871acd] Finished in 1.417 seconds with exit status 0 (successful).
+ DEBUG [f71ab83f] Running if test ! -d /var/www/marviorocha/releases/20180405202732; then echo "Directory does not exist '/var/www/marviorocha/releases/20180405202732'" 1>&2; false; fi as deploy@35.231.126.217
+ DEBUG [f71ab83f] Command: if test ! -d /var/www/marviorocha/releases/20180405202732; then echo "Directory does not exist '/var/www/marviorocha/releases/20180405202732'" 1>&2; false; fi
+ DEBUG [f71ab83f] Finished in 0.524 seconds with exit status 0 (successful).
+  INFO [778fa0db] Running ~/.rvm/bin/rvm default do bundle exec rake assets:precompile as deploy@35.231.126.217
+ DEBUG [778fa0db] Command: cd /var/www/marviorocha/releases/20180405202732 && ( export RAILS_ENV="production" RAILS_GROUPS="" ; ~/.rvm/bin/rvm default do bundle exec rake assets:precompile )
+ DEBUG [778fa0db] 	yarn install v1.3.2
+ DEBUG [778fa0db] 	info No lockfile found.
+ DEBUG [778fa0db] 	[1/4] Resolving packages...
+ DEBUG [778fa0db] 	[2/4] Fetching packages...
+ DEBUG [778fa0db] 	[3/4] Linking dependencies...
+ DEBUG [778fa0db] 	[4/4] Building fresh packages...
+ DEBUG [778fa0db] 	info Lockfile not saved, no dependencies.
+ DEBUG [778fa0db] 	Done in 0.09s.
+  INFO [778fa0db] Finished in 6.268 seconds with exit status 0 (successful).
+ DEBUG [9e8f3914] Running if test ! -d /var/www/marviorocha/releases/20180405202732; then echo "Directory does not exist '/var/www/marviorocha/releases/20180405202732'" 1>&2; false; fi as deploy@35.231.126.217
+ DEBUG [9e8f3914] Command: if test ! -d /var/www/marviorocha/releases/20180405202732; then echo "Directory does not exist '/var/www/marviorocha/releases/20180405202732'" 1>&2; false; fi
+ DEBUG [9e8f3914] Finished in 0.527 seconds with exit status 0 (successful).
+  INFO [98691d0b] Running /usr/bin/env mkdir -p /var/www/marviorocha/releases/20180405202732/assets_manifest_backup as deploy@35.231.126.217
+ DEBUG [98691d0b] Command: cd /var/www/marviorocha/releases/20180405202732 && /usr/bin/env mkdir -p /var/www/marviorocha/releases/20180405202732/assets_manifest_backup
+  INFO [98691d0b] Finished in 0.548 seconds with exit status 0 (successful).
+ DEBUG [52e81fcb] Running /usr/bin/env ls /var/www/marviorocha/releases/20180405202732/public/assets/.sprockets-manifest* as deploy@35.231.126.217
+ DEBUG [52e81fcb] Command: cd /var/www/marviorocha/releases/20180405202732 && /usr/bin/env ls /var/www/marviorocha/releases/20180405202732/public/assets/.sprockets-manifest*
+ DEBUG [52e81fcb] 	/var/www/marviorocha/releases/20180405202732/public/assets/.sprockets-manifest-5e8240dee1b384dbfd4ae3c0e66bd814.json
+ DEBUG [52e81fcb] Finished in 0.523 seconds with exit status 0 (successful).
+ DEBUG [cf46d685] Running /usr/bin/env ls /var/www/marviorocha/releases/20180405202732/public/assets/.sprockets-manifest* as deploy@35.231.126.217
+ DEBUG [cf46d685] Command: cd /var/www/marviorocha/releases/20180405202732 && /usr/bin/env ls /var/www/marviorocha/releases/20180405202732/public/assets/.sprockets-manifest*
+ DEBUG [cf46d685] 	/var/www/marviorocha/releases/20180405202732/public/assets/.sprockets-manifest-5e8240dee1b384dbfd4ae3c0e66bd814.json
+ DEBUG [cf46d685] Finished in 0.526 seconds with exit status 0 (successful).
+  INFO [286d3081] Running /usr/bin/env cp /var/www/marviorocha/releases/20180405202732/public/assets/.sprockets-manifest-5e8240dee1b384dbfd4ae3c0e66bd814.json /var/www/marviorocha/releases/20180405202732/assets_manifest_backup as deploy@35.231.126.217
+ DEBUG [286d3081] Command: cd /var/www/marviorocha/releases/20180405202732 && /usr/bin/env cp /var/www/marviorocha/releases/20180405202732/public/assets/.sprockets-manifest-5e8240dee1b384dbfd4ae3c0e66bd814.json /var/www/marviorocha/releases/20180405202732/assets_manifest_backup
+  INFO [286d3081] Finished in 0.522 seconds with exit status 0 (successful).
+  INFO [deploy:migrate] Run `rake db:migrate`
+ DEBUG [5f9ecc76] Running if test ! -d /var/www/marviorocha/releases/20180405202732; then echo "Directory does not exist '/var/www/marviorocha/releases/20180405202732'" 1>&2; false; fi as deploy@35.231.126.217
+ DEBUG [5f9ecc76] Command: if test ! -d /var/www/marviorocha/releases/20180405202732; then echo "Directory does not exist '/var/www/marviorocha/releases/20180405202732'" 1>&2; false; fi
+ DEBUG [5f9ecc76] Finished in 0.519 seconds with exit status 0 (successful).
+  INFO [5198864f] Running ~/.rvm/bin/rvm default do bundle exec rake db:migrate as deploy@35.231.126.217
+ DEBUG [5198864f] Command: cd /var/www/marviorocha/releases/20180405202732 && ( export RAILS_ENV="production" ; ~/.rvm/bin/rvm default do bundle exec rake db:migrate )
+  INFO [5198864f] Finished in 4.595 seconds with exit status 0 (successful).
+  INFO [d1aa5c51] Running /usr/bin/env ln -s /var/www/marviorocha/releases/20180405202732 /var/www/marviorocha/releases/current as deploy@35.231.126.217
+ DEBUG [d1aa5c51] Command: /usr/bin/env ln -s /var/www/marviorocha/releases/20180405202732 /var/www/marviorocha/releases/current
+  INFO [d1aa5c51] Finished in 0.519 seconds with exit status 0 (successful).
+  INFO [051a39a9] Running /usr/bin/env mv /var/www/marviorocha/releases/current /var/www/marviorocha as deploy@35.231.126.217
+ DEBUG [051a39a9] Command: /usr/bin/env mv /var/www/marviorocha/releases/current /var/www/marviorocha
+  INFO [051a39a9] Finished in 0.531 seconds with exit status 0 (successful).
+ DEBUG [70f51491] Running if test ! -d /var/www/marviorocha/releases/20180405202732; then echo "Directory does not exist '/var/www/marviorocha/releases/20180405202732'" 1>&2; false; fi as deploy@35.231.126.217
+ DEBUG [70f51491] Command: if test ! -d /var/www/marviorocha/releases/20180405202732; then echo "Directory does not exist '/var/www/marviorocha/releases/20180405202732'" 1>&2; false; fi
+ DEBUG [70f51491] Finished in 0.529 seconds with exit status 0 (successful).
+ DEBUG [8f830068] Running /usr/bin/env passenger -v as deploy@35.231.126.217
+ DEBUG [8f830068] Command: cd /var/www/marviorocha/releases/20180405202732 && /usr/bin/env passenger -v
+ DEBUG [8f830068] 	Phusion Passenger 5.2.0
+ DEBUG [8f830068] 	
+ DEBUG [8f830068] Finished in 0.629 seconds with exit status 0 (successful).
+  INFO [56336cc9] Running /usr/bin/env passenger-config restart-app /var/www/marviorocha --ignore-app-not-running as deploy@35.231.126.217
+ DEBUG [56336cc9] Command: cd /var/www/marviorocha/releases/20180405202732 && /usr/bin/env passenger-config restart-app /var/www/marviorocha --ignore-app-not-running
+ DEBUG [56336cc9] 	Restarting /var/www/marviorocha/current (production)
+  INFO [56336cc9] Finished in 0.749 seconds with exit status 0 (successful).
+ DEBUG [412ea6e1] Running /usr/bin/env ls -x /var/www/marviorocha/releases as deploy@35.231.126.217
+ DEBUG [412ea6e1] Command: /usr/bin/env ls -x /var/www/marviorocha/releases
+ DEBUG [412ea6e1] 	20180405201700	20180405202732
+ DEBUG [412ea6e1] Finished in 0.586 seconds with exit status 0 (successful).
+ DEBUG [4fd224b0] Running if test ! -d /var/www/marviorocha/releases; then echo "Directory does not exist '/var/www/marviorocha/releases'" 1>&2; false; fi as deploy@35.231.126.217
+ DEBUG [4fd224b0] Command: if test ! -d /var/www/marviorocha/releases; then echo "Directory does not exist '/var/www/marviorocha/releases'" 1>&2; false; fi
+ DEBUG [4fd224b0] Finished in 0.559 seconds with exit status 0 (successful).
+  INFO [ad449840] Running /usr/bin/env echo "Branch master (at 37d9938deefbf0a3cbae5e9d03d91fd3ecabb3fe) deployed as release 20180405202732 by marviorocha" >> /var/www/marviorocha/revisions.log as deploy@35.231.126.217
+ DEBUG [ad449840] Command: cd /var/www/marviorocha/releases && /usr/bin/env echo "Branch master (at 37d9938deefbf0a3cbae5e9d03d91fd3ecabb3fe) deployed as release 20180405202732 by marviorocha" >> /var/www/marviorocha/revisions.log
+  INFO [ad449840] Finished in 0.558 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-04-05 17:41:03 -0300 cap production deploy:compile_assets
+  INFO ---------------------------------------------------------------------------
+ DEBUG [20933485] Running /usr/bin/env which passenger as deploy@35.231.126.217
+ DEBUG [20933485] Command: /usr/bin/env which passenger

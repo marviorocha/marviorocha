@@ -11,18 +11,11 @@
 // about supported directives.
 //
 
-//= require js/jquery.min
-//= require js/jquery.easing.1.3
-//= require js/bootstrap.min
+//= require jquery3
+//= require bootstrap/bootstrap.min
 //= require jquery_ujs
 //= require jquery.purr
 //= require best_in_place
-//= require js/jquery.waypoints.min
-//= require js/jquery.stellar.min
-//= require js/jquery.countTo
-//= require js/jquery.magnific-popup.min
-//= require js/magnific-popup-options
-//= require js/google_map
 //= require js/main
 //= require rails-ujs
 //= require turbolinks
@@ -31,4 +24,5 @@
 
    /* Activating Best In Place */
    jQuery(".best_in_place").best_in_place();
+   
  });

@@ -5,5 +5,8 @@
 #= require activeadmin/trumbowyg/trumbowyg
 #= require activeadmin/trumbowyg_input
 #= require activeadmin/trumbowyg/plugins/upload/trumbowyg.upload
+#= require activeadmin/trumbowyg/plugins/noembed/trumbowyg.noembed.min
+
 $(document).ready ->
   jQuery(".best_in_place").best_in_place()
+ 

@@ -8,6 +8,7 @@ end
 # My Gem
 
 gem 'devise'
+gem 'jquery'
 gem 'activeadmin'
 gem 'formadmin'
 gem "paperclip"
@@ -16,7 +17,7 @@ gem 'activeadmin_trumbowyg'
 gem 'jquery-rails'
 gem 'best_in_place'
 gem 'rails', '~> 5.1.6'
-
+gem 'bootstrap-sass'
 gem 'puma', '~> 3.7'
 
 gem 'sass-rails', '~> 5.0'

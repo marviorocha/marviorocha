@@ -27,7 +27,7 @@ end
 form do |f|
 		f.inputs do
     f.input :name, label: "Digite o nome"
-    f.input :code, as: :trumbowyg  
+    f.input :code, as: :trumbowyg , input_html: {data: {options: { semantic: false, autogrow: true, }}}
     end
     f.actions
 end

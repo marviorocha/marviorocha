@@ -1,22 +1,19 @@
+<!-- ******HEADER****** -->
+<header class="header">
+    <div class="container">
+      <%= image_tag(@site.logo, class: "profile-image img-responsive pull-left", alt: @site.title) %>
 
- <header role="banner" id="fh5co-header">
-     <div class="container">
-       <!-- <div class="row"> -->
-         <nav class="navbar navbar-default">
-           <div class="navbar-header">
-             <!-- Mobile Toggle Menu Button -->
-
-         <a href="<%= root_url %>" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-            <a class="navbar-brand" href="<%= root_url %>">
-              <%= @site.logo? ? image_tag(@site.logo, size:"180x60", alt: "logo #{@site.title}")
-               : {span: "Late"} %></a>
-           </div>
-           <div id="navbar" class="navbar-collapse collapse">
-
-          <%= render "shered/nav" %>
-
-           </div>
-         </nav>
-       <!-- </div> -->
-     </div>
- </header>
+        <div class="profile-content pull-left">
+            <h1 class="name"><%= @site.title %></h1>
+            <h2 class="desc"><%= @site.site_descricao %></h2>
+            <ul class="social list-inline">
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-github-alt"></i></a></li>
+                <li class="last-item"><a href="#"><i class="fa fa-hacker-news"></i></a></li>
+            </ul>
+        </div><!--//profile-->
+        <a class="btn btn-cta-primary pull-right" href="http" target="_blank"><i class="fa fa-whatsapp"></i> Contact Me</a>
+    </div><!--//container-->
+</header><!--//header-->
