@@ -1,8 +1,8 @@
 <!-- ******HEADER****** -->
 <header class="header">
     <div class="container">
- 
-      <%= image_tag(@site.logo, class: "profile-image img-responsive pull-left", alt: @site.title) %>
+
+      <%= image_tag(gravatar(@site.email, 140), class: "profile-image img-responsive pull-left img-circle", alt: @site.title) %>
 
         <div class="profile-content pull-left">
 
@@ -17,6 +17,6 @@
             </ul>
         </div><!--//profile-->
 
-        <a class="btn btn-cta-primary pull-right" href="http" target="_blank"><i class="fa fa-paper-plane"></i> Contact Me</a>
+        <a class="btn btn-cta-primary pull-right" href="mailto:marviorocha@marviorocha.com" target="_blank"><i class="fa fa-paper-plane"></i> Entre em Contato</a>
     </div><!--//container-->
 </header><!--//header-->
