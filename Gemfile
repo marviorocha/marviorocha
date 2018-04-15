@@ -17,9 +17,10 @@ gem 'activeadmin_trumbowyg'
 gem 'jquery-rails'
 gem 'best_in_place'
 gem 'rails', '~> 5.1.6'
+gem 'mail_form'
 gem 'bootstrap-sass'
 gem 'puma', '~> 3.7'
-
+ 
 gem 'sass-rails', '~> 5.0'
 
 gem 'uglifier', '>= 1.3.0'

@@ -12,19 +12,17 @@
 //
 
 //= require jquery3
-//= require bootstrap/bootstrap.min
 //= require jquery_ujs
+//= require bootstrap/bootstrap.min
 //= require jquery.purr
 //= require best_in_place
 //= require js/main
-//= require rails-ujs
 //= require turbolinks
 
  $(document).ready(function() {
 
    /* Activating Best In Place */
    jQuery(".best_in_place").best_in_place();
-
 
 
  });

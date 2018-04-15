@@ -2,8 +2,9 @@
 <header class="header">
     <div class="container">
 
+    <a title="<%= @site.title %>" href="<%= root_url %>">
       <%= image_tag(gravatar(@site.email, 140), class: "profile-image img-responsive pull-left img-circle", alt: @site.title) %>
-
+    </a>
         <div class="profile-content pull-left">
 
             <h1 class="name"><%= @site.title %></h1>
@@ -16,7 +17,8 @@
 
             </ul>
         </div><!--//profile-->
-
-        <a class="btn btn-cta-primary pull-right" href="mailto:marviorocha@marviorocha.com" target="_blank"><i class="fa fa-paper-plane"></i> Entre em Contato</a>
+            <a href="<%= messages_url %>" class="btn btn-cta-primary pull-right"    target="_parent"><i class="fa fa-paper-plane"></i> Entre em Contato</a>
     </div><!--//container-->
 </header><!--//header-->
+
+<!-- Modal -->

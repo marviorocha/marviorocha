@@ -1,0 +1,59 @@
+<%= content_for :title, @post_show.title %>
+<%= content_for :descricao, truncate(strip_tags(@post_show.body), length: 180) %>
+
+  <div class="container sections-wrapper">
+  <div class="row">
+
+
+
+  <div class="primary col-md-12 col-sm-12 col-xs-12">
+  <section class="about section">
+    <ol class="breadcrumb">
+      <li><i class="fa fa-home"></i> <a href="<%= root_url %>">Home</a></li>
+      <li><%= @category.name %></li>
+      <li><%= @post_show.title %></li>
+    </ol>
+  <div class="section-inner">
+
+    <h2><%= @post_show.title %></h2>
+    <div class="content">
+
+ <div class="row">
+   <div class="col-md-7  project-image">
+   <%= image_tag(@post_show.image, size: "1080", class: "img-responsive img-thumbnail center-block") %>
+   </div>
+<p>
+  <%= raw @post_show.body %>
+</p>
+
+ </div>
+
+
+    </div><!--//content-->
+
+  </div><!--//section-inner-->
+  </section><!--//section-->
+
+
+
+
+
+
+  <section class="experience section">
+  <div class="section-inner">
+
+  <%= render "pages/work" %>
+
+  </div><!--//section-inner-->
+  </section><!--//section-->
+  <section class="github section">
+  <div class="section-inner">
+
+   
+
+
+  </div><!--//secton-inner-->
+  </section><!--//section-->
+  </div><!--//primary-->
+</div>
+</div>

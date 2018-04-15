@@ -14,6 +14,23 @@ Rails.application.configure do
   config.consider_all_requests_local       = false
   config.action_controller.perform_caching = true
 
+
+  config.action_mailer.default_url_options = { host: 'marviorocha.com'}
+
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+    address:              'smtp.mailgun.org',
+    port:                  2525,
+    domain:               'marviorocha.com',
+    user_name:            'postmaster@marviorocha.com',
+    password:             '9h85ubpa9k16',
+    authentication:       'plain'
+  }
+
+
+
+
+
   # Attempt to read encrypted secrets from `config/secrets.yml.enc`.
   # Requires an encryption key in `ENV["RAILS_MASTER_KEY"]` or
   # `config/secrets.yml.key`.
