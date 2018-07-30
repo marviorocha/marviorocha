@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "title": "Resume",
     "name": "startbootstrap-resume",
     "version": "4.1.1",
@@ -40,4 +41,9 @@
         "gulp-sass": "4.0.1",
         "gulp-uglify": "3.0.0"
     }
+=======
+  "name": "marviorocha",
+  "private": true,
+  "dependencies": {}
+>>>>>>> a6aa4b21c7c4caf600decae78a19b81c0b1bfbdd
 }
