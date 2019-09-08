@@ -1,0 +1,36 @@
+# site settings
+title: MarvioRocha.Com 
+subtitle: developer ruby on rails
+email: marviorocha@marviorocha.com
+description: I'm a Brazilian Ruby on Rails developer with 3+ years of experience. My interests are to build application some than withstand my other knowledge an example, React JS, Docker...
+baseurl: "" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
+author:
+street_address: Governador Roberto Silveira
+city: Macaé
+state: RJ
+zip_code: 27910-000
+country: Brazil
+phone: +55 (22) 99205-8166
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings
+500px_url:
+facebook_url:
+github_url: https://github.com/marviorocha
+gitlab_url: 
+googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
+instagram_url: https://instagram.com/marviorocha
+linkedin_url: https://www.linkedin.com/in/marviorocha
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/marviorocha
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
