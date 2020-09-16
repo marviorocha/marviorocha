@@ -17,7 +17,7 @@ const About = () => {
       <div className="flex flex-wrap">
         <div className="w-5/6 sm:w-1/2 p-3">
             <h1 className="text-3xl font-bold mb-3 text-gray-800">Objective</h1>
-        <p className="leading-6 text-gray-600">
+        <p className="leading-6 text-gray-600 text-justify">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit officia
           eveniet voluptatum, sequi, impedit temporibus inventore vitae dolorem
           quia quisquam qui aut doloremque, error omnis cum

@@ -4,7 +4,7 @@ const BioHobby = () => {
   return (
     <section className="px-4">
       <h1 className="text-3xl font-bold mb-3 text-gray-800">Quick Biografy</h1>
-      <p className="leading-6 text-gray-600">
+      <p className="leading-6 text-gray-600 text-justify">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
         provident itaque optio corporis impedit illum ipsa laboriosam voluptate
         aperiam? Ex nemo sed expedita maiores dolorem laudantium eum amet maxime
@@ -12,8 +12,8 @@ const BioHobby = () => {
         aut doloribus consectetur voluptatum sed porro dolor rem est reiciendis
         
       </p>
-      <h1 className="text-3xl font-bold my-3 text-gray-800">Hobby</h1>
-      <p className="leading-6 text-gray-600">
+      <h1 className="text-3xl font-bold my-4 text-gray-800">Hobby</h1>
+      <p className="leading-6 text-gray-600 text-justify">
       nulla quos similique provident id atque veniam saepe, inventore,
         repudiandae autem deserunt cupiditate. Velit ullam et eos officia
         laudantium perferendis distinctio. Deleniti unde libero placeat
@@ -32,11 +32,13 @@ const BioHobby = () => {
         temporibus expedita consequuntur tenetur impedit voluptatibus suscipit
         facere vel cumque reiciendis! Mollitia, sapiente officia.
       </p>
-      <p className="leading-6 py-3">
-      
+      <p className="leading-6 my-8 flex flex-wrap justify-center">
+      <iframe className="border-0 w-9/12 h-32 " src="https://bandcamp.com/EmbeddedPlayer/track=4125258769/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless>
+        <a href="https://marviorocha.bandcamp.com/track/the-dreams">The Dreams by Marvio Rocha</a></iframe>
      </p>
     </section>
   );
 };
 
 export default BioHobby;
+ 
