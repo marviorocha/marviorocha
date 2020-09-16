@@ -33,8 +33,7 @@ const BioHobby = () => {
         facere vel cumque reiciendis! Mollitia, sapiente officia.
       </p>
       <p className="leading-6 py-3">
-      <iframe width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay"
-       src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/663631793&color=%2358514b&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+      
      </p>
     </section>
   );
