@@ -5,15 +5,15 @@ const Footer = () => {
   return (
     <section>
       <div className="container m-auto px-4 py-8 ">
-        <div className="flex flex-wrap h-48 ">
-          <div className="w-8/12">
+        <div className="flex flex-wrap-reverse h-48 ">
+          <div className="w-full md:w-8/12">
             <img
               className="transform scale-75"
               src={Logo}
               alt="Marvio Rocha - Developer Ruby On Rails and React"
             />
           </div>
-          <div className="w-2/12">
+          <div className="w-full md:w-2/12">
             <h3 className="text-lg uppercase font-semibold text-gray-700 py-2">
               Social
             </h3>
@@ -57,14 +57,13 @@ const Footer = () => {
               </a>
             </p>
           </div>
-          <div className="w-2/12">
+          <div className="w-full md:w-2/12">
           <h3 className="text-lg uppercase font-semibold text-gray-700 py-2">
             THANKS FOR COMING
             </h3>
             <p className="text-gray-700 text">
-            <a href="https://www.paypal.me/marviorocha" target="blank" 
-            class="no-underline hover:underline text-gray-700 text">Made with ❤️ 
-            </a> Using React © 2020 Marvio Rocha
+            <a  href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MMK34HK335VZE&source=url" target="blank" 
+            className="no-underline hover:underline text-gray-700 text">Made with</a> ❤️ Using React © 2020 Marvio Rocha
             </p>
           </div>
         </div>

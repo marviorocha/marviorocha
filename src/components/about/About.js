@@ -15,16 +15,10 @@ const About = () => {
       <div className="w-full mb-4"><div className="h-1 mx-auto gradient w-56 opacity-25 my-0 py-0 rounded-t"></div></div>
 
       <div className="flex flex-wrap">
-        <div className="w-5/6 sm:w-1/2 p-3">
+        <div className="w-full sm:w-1/2 p-3">
             <h1 className="text-3xl font-bold mb-3 text-gray-800">Objective</h1>
         <p className="leading-6 text-gray-600 text-justify">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit officia
-          eveniet voluptatum, sequi, impedit temporibus inventore vitae dolorem
-          quia quisquam qui aut doloremque, error omnis cum
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit officia
-          eveniet voluptatum, sequi, impedit temporibus inventore vitae dolorem
-          quia quisquam qui aut doloremque, error omnis cum
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, amet!
+         Build software that contributes to the success of the company. Achievement each more and more space acting in diverse market segments how: Industrie, Education, Health, Technology also reaching the company's small, medium, and large size.
         </p>
      
         </div>
