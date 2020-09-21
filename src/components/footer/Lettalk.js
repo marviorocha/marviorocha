@@ -16,12 +16,14 @@ const Lettalk = () => {
       
       <div className="w-full mb-4"><div className="h-1 mx-auto gradient w-48 opacity-25 my-0 py-0 rounded-t"></div></div>
             <h3 className="my-4 text-2xl leading-tight text-center  text-blue-700">
-                Lorem ipsum dolor sit amet consectetur.
+            See how we can collaborate, how I can help you!
             </h3>
-          <button className="text-white uppercase font-bold px-6 rounded-lg bg-blue-700
+        <a target="_blank" href="https://share.hsforms.com/1PRTecQnCQeuM9Nlj_-rQlA52a0d">
+          <button  className="text-white uppercase font-bold px-6 rounded-lg bg-blue-700
            hover:bg-blue-500 transition duration-200 w-40 h-12 focus:outline-none">
             Contact us
           </button>
+          </a>
         </div>
       </div>
     </section>

@@ -4,38 +4,32 @@ const BioHobby = () => {
   return (
     <section className="px-4">
       <h1 className="text-3xl font-bold mb-3 text-gray-800">Quick Biografy</h1>
-      <p className="leading-6 text-gray-600 text-justify">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-        provident itaque optio corporis impedit illum ipsa laboriosam voluptate
-        aperiam? Ex nemo sed expedita maiores dolorem laudantium eum amet maxime
-        aliquid praesentium. Exercitationem quidem sed mollitia optio. Ea rerum
-        aut doloribus consectetur voluptatum sed porro dolor rem est reiciendis
-        
+      <p className="leading-7 text-gray-600 text-justify">
+        Marvio Rocha is a developer born in Macaé City, your firsts courses were
+        about Micro Software Office at a government institute, where learning
+        how to make digitations and managers in computers. In 2007 Marvio
+        started work in your first job building a website for a small oil
+        company, how to a freelance developer making graphic designs and
+        websites with a language PHP, and Mysql learned by yourself. <p className="mt-4" > Your
+        biggest idea was a system of a job board for your city, where we have
+        some large numbers of subscribers to build your new way of being a
+        professional.</p>
       </p>
       <h1 className="text-3xl font-bold my-4 text-gray-800">Hobby</h1>
       <p className="leading-6 text-gray-600 text-justify">
-      nulla quos similique provident id atque veniam saepe, inventore,
-        repudiandae autem deserunt cupiditate. Velit ullam et eos officia
-        laudantium perferendis distinctio. Deleniti unde libero placeat
-        similique tempora ea dolor maxime, et architecto adipisci possimus
-        excepturi totam corrupti. Sit enim aspernatur eius, placeat numquam
-        mollitia itaque illum alias illo provident veniam rerum ratione. Veniam
-        eos autem veritatis unde possimus molestiae voluptatum qui illum officia
-        ullam quis ad nemo eveniet minus, iste est, ratione odio, ex
-        reprehenderit quia laborum eligendi dolore animi! Amet rem assumenda et
-        fugiat, placeat soluta beatae a voluptatibus quos pariatur dignissimos
-        accusantium nesciunt ipsam? Ab, quaerat laboriosam. Adipisci, expedita?
-        Dolor enim dicta hic, alias cumque ullam vel accusamus dolorum nam
-        excepturi est eligendi neque pariatur doloribus voluptatem saepe!
-        Incidunt ipsam aut non error ratione doloribus illo sequi consequatur
-        deserunt quo harum dolorem laborum fuga similique dignissimos,
-        temporibus expedita consequuntur tenetur impedit voluptatibus suscipit
-        facere vel cumque reiciendis! Mollitia, sapiente officia.
+      I love programming software, but some time stand I keep for practice the sports how  an bike and make a sound design that is my free time for make greats composition and relaxing songs than you can hear  an example below
       </p>
       <p className="leading-6 my-8 flex flex-wrap justify-center">
-      <iframe className="border-0 w-9/12 h-32 " src="https://bandcamp.com/EmbeddedPlayer/track=4125258769/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless>
-        <a href="https://marviorocha.bandcamp.com/track/the-dreams">The Dreams by Marvio Rocha</a></iframe>
-     </p>
+        <iframe
+          className="border-0 w-9/12 h-32 "
+          src="https://bandcamp.com/EmbeddedPlayer/track=4125258769/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/"
+          seamless
+        >
+          <a href="https://marviorocha.bandcamp.com/track/the-dreams">
+            The Dreams by Marvio Rocha
+          </a>
+        </iframe>
+      </p>
     </section>
   );
 };

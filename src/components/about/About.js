@@ -18,9 +18,11 @@ const About = () => {
         <div className="w-full sm:w-1/2 p-3">
             <h1 className="text-3xl font-bold mb-3 text-gray-800">Objective</h1>
         <p className="leading-6 text-gray-600 text-justify">
-         Build software that contributes to the success of the company. Achievement each more and more space acting in diverse market segments how: Industrie, Education, Health, Technology also reaching the company's small, medium, and large size.
-        </p>
-     
+        Build software that contributes to the success of the company. Achievement each more and more space acting in diverse market segments how: Industrie, Education, Health, Technology also reaching the company's small, medium, and large size. 
+       </p>
+        <p className="leading-6 mt-4 text-gray-600 font-bold text-justify">
+        Current focus: Ruby On Rails // React // SQL
+          </p>     
         </div>
         <div className="w-full sm:w-1/2 p-6">
             <img src={ProgressiveImg} alt="Progressive App"/>
