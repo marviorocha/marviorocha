@@ -47,9 +47,9 @@ return (
 </svg>
        
         <div className="w-full">
-            <h3 className="text-gray-700 text-lg font-bold leading-tight mb-3">Lorem ipsum dolor sit amet.</h3>
-            <p className="text-gray-500 leading-tight ">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsa a sint ratione maiores? Voluptate sunt, tenetur, aut optio cumque odit placeat corporis iste odio, aliquam deserunt quibusdam molestiae distinctio?
+            <h3 className="text-gray-700 text-lg font-bold leading-tight mb-3">Mobile developer</h3>
+            <p className="text-gray-500 leading-8 ">
+            Mobile apps are a new generation, the software that has been applied in where we live today has more smartphones than people in all the world. I have put it's in my thinks for extends my continuous learning
             </p>
         </div>
 
@@ -75,9 +75,9 @@ return (
 </svg>
        
         <div className="w-full">
-            <h3 className="text-gray-700 text-lg font-bold leading-tight mb-3">Lorem ipsum dolor sit amet.</h3>
+            <h3 className="text-gray-700 text-lg font-bold leading-tight mb-3">Ruby On Rails developer</h3>
             <p className="text-gray-500 leading-tight ">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsa a sint ratione maiores? Voluptate sunt, tenetur, aut optio cumque odit placeat corporis iste odio, aliquam deserunt quibusdam molestiae distinctio?
+            I specialize in backend web development, my case of history with language Ruby on Rails is before I used the PHP for my project and now has been moved to the ruby.
             </p>
         </div>
 
