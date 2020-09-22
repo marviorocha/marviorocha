@@ -4,7 +4,7 @@ import Logo from "../../assets/images/logo.png";
 const Footer = () => {
   return (
     <section>
-      <div className="container m-auto px-4 py-8 ">
+      <div className="container m-auto px-4 py-10 ">
         <div className="flex flex-wrap-reverse h-48 ">
           <div className="w-full md:w-8/12">
             <img
