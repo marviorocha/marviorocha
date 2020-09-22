@@ -25,7 +25,7 @@ const People = () => {
               iure corporis voluptatibus at soluta.
             </p>
             <p className="font-bold text-blue-700">
-                João Fernandes
+                 Enrique Beck
             </p>
           </div>
 
@@ -40,7 +40,7 @@ const People = () => {
               iure corporis voluptatibus at soluta.
             </p>
             <p className="font-bold text-blue-700">
-                Fernando Fernandes
+                 Raymond Bishop
             </p>
           </div>
           <div className="w-10/12 md:w-1/4  shadow-lg rounded-lg mt-3 m-4 px-6 py-4 flex flex-col items-center">
@@ -55,7 +55,7 @@ const People = () => {
 
             </p>
             <p className="font-bold text-blue-700">
-                Paula Fernandes
+            Lucille Jordan
             </p>
           </div>
         </div>

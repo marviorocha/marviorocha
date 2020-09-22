@@ -77,7 +77,7 @@ return (
         <div className="w-full">
             <h3 className="text-gray-700 text-lg font-bold leading-tight mb-3">Ruby On Rails developer</h3>
             <p className="text-gray-500 leading-tight ">
-            I specialize in backend web development, my case of history with language Ruby on Rails is before I used the PHP for my project and now has been moved to the ruby.
+            I specialize in backend web development, my case of history with language Ruby on Rails is before I used the PHP for my project and now has been moved to the ruby. Because, it's fast and safe for applications
             </p>
         </div>
 
