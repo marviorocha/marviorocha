@@ -72,7 +72,7 @@ Both apis are in trouble due to the number of requests, if you know any other to
 I created these images, feel free to use them.
 -->
 <p align="center">
-  <a href="https://www.patreon.com/onimur" target="_blank">
+  <a href="https://www.patreon.com/marviorocha" target="_blank">
     <img width="18%" alt="Check my Patreon" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/support-patreon.png"/>
   </a>
   <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5AKGDCGYMJWMJ" target="_blank">
