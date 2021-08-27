@@ -62,7 +62,7 @@ Both apis are in trouble due to the number of requests, if you know any other to
 -->
 <p align="center">
   <img alt="HitCount" src="http://hits.dwyl.com/onimur/onimur.svg" />
-  <img alt="visitors" src="https://visitor-badge.glitch.me/badge?page_id=onimur.onimur" />
+  <img alt="visitors" src="https://visitor-badge.glitch.me/badge?page_id=marviorocha" />
   <!-- https://github.com/wesky93/views this is a clone of the hits -->
   <img alt="ViewCount" src="https://views.whatilearened.today/views/github/onimur/onimur.svg" />
 </p>
@@ -88,10 +88,10 @@ I created these images, feel free to use them.
 <!-- Its main projects -->
 <p align="center">
   <a href="https://github.com/onimur/handle-path-oz">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=onimur&repo=handle-path-oz" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=marviorocha&repo=handle-path-oz" />
   </a>
   <a href="https://github.com/onimur/circleci-github-changelog-generator">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=onimur&repo=circleci-github-changelog-generator" />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=marviorocha&repo=circleci-github-changelog-generator" />
   </a>
 </p>
 
