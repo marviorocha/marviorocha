@@ -32,9 +32,11 @@ You can use the website to generate badges: https://shields.io/
 You can use this api: https://github.com/anuraghazra/github-readme-stats
 -->
 <p>
-  <a href="https://github.com/onimur/handle-path-oz">
-    <img width="55%" align="right" alt="Onimur's github stats" src="https://github-readme-stats.vercel.app/api?username=marviorocha&show_icons=true&hide_border=true" />
+  <a href="https://github.com/marviorocha">
+    <img width="55%" align="right" alt="Marvio Rocha's github stats" src="https://github-readme-stats.vercel.app/api?username=marviorocha&show_icons=true&hide_border=true" />
   </a>
+ 
+
   
   <!-- Your languages and tools. Be careful with the alignment. 
   You can use this sites to get logos: https://www.vectorlogo.zone or https://simpleicons.org/
@@ -65,10 +67,7 @@ site: http://hits.dwyl.com or https://visitor-badge.glitch.me
 Both apis are in trouble due to the number of requests, if you know any other to register visitors, great
 -->
 <p align="center">
-  <img alt="HitCount" src="http://hits.dwyl.com/onimur/onimur.svg" />
-  <img alt="visitors" src="https://visitor-badge.glitch.me/badge?page_id=marviorocha" />
-  <!-- https://github.com/wesky93/views this is a clone of the hits -->
-  <img alt="ViewCount" src="https://views.whatilearened.today/views/github/onimur/onimur.svg" />
+ 
 </p>
 
 ## Support me
@@ -79,7 +78,7 @@ I created these images, feel free to use them.
   <a href="https://www.patreon.com/marviorocha" target="_blank">
     <img width="18%" alt="Check my Patreon" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/support-patreon.png"/>
   </a>
-  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5AKGDCGYMJWMJ" target="_blank">
+  <a href="https://www.paypal.com/donate?hosted_button_id=5AKGDCGYMJWMJ" target="_blank">
       <img width="18%" alt="Donate with Paypal" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/support-paypal.png"/>
   </a>
   <a href="https://www.buymeacoffee.com/marviorocha" target="_blank">
