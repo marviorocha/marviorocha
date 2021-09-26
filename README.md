@@ -90,10 +90,10 @@ I created these images, feel free to use them.
 
 <!-- Its main projects -->
 <p align="center">
-  <a href="https://github.com/onimur/handle-path-oz">
+  <a href="https://github.com/marviorocha">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=marviorocha&repo=handle-path-oz" />
   </a>
-  <a href="https://github.com/onimur/circleci-github-changelog-generator">
+  <a href="https://github.com/marviorocha/circleci-github-changelog-generator">
     <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=marviorocha&repo=circleci-github-changelog-generator" />
   </a>
 </p>
