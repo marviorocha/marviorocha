@@ -11,15 +11,18 @@ You can use the website to generate badges: https://shields.io/
 [![Gmail](https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white)](mailto:marviorocha@gmail.com)
 
 
-&nbsp;
+Website: [marviorocha.com]('https://www.marviorocha.com')
+
+ 
 
 <!-- Talking about you -->
 **Talking about Personal Stuffs:**
 
 <!-- Any image aligned to the right. Beware the width -->
-<img width="55%" align="right" alt="Github" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg" />
 
-- 👨🏽‍💻 I’m currently working in @inteligovbr;
+[//]: # (<img width="55%" align="right" alt="Github" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg" />)
+
+- 👨‍💻 I’m currently coding with rubymine;
 - 🌱 I’m currently working with Ruby On Rails; 
 <!-- - 👯 I’m looking to collaborate on [Handle Path Oz](https://github.com/onimur/handle-path-oz) 🤝; -->
 - 🤔 I’m looking for help with Design Pattern 😭;
@@ -33,7 +36,8 @@ You can use this api: https://github.com/anuraghazra/github-readme-stats
 -->
 <p>
   <a href="https://github.com/marviorocha">
-    <img width="55%" align="right" alt="Marvio Rocha's github stats" src="https://github-readme-stats.vercel.app/api?username=marviorocha&show_icons=true&hide_border=true" />
+    <img width="55%" align="right" alt="Marvio Rocha's github stats" 
+src="https://github-readme-stats.vercel.app/api?username=marviorocha&show_icons=true&hide_border=true" />
   </a>
  
 
@@ -89,14 +93,3 @@ I created these images, feel free to use them.
 ---
 
 <!-- Its main projects -->
-<p align="center">
-  <a href="https://github.com/marviorocha">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=marviorocha&repo=handle-path-oz" />
-  </a>
-  <a href="https://github.com/marviorocha/circleci-github-changelog-generator">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=marviorocha&repo=circleci-github-changelog-generator" />
-  </a>
-</p>
-
-<!-- This readme was created by Murillo Comino - https://github.com/onimur -->
-<!-- ⭐️ From [onimur](https://github.com/onimur) -->

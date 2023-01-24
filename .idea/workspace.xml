@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="75feddc0-4a73-4fa2-a9ae-e57a0df2c7c3" name="Changes" comment="New github-pages workflows">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Capfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rakefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/admin_users.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/categories.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/dashboard.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/posts.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/sites.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/snippets.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/users.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/config/manifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/full_image_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/full_image_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/img_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/img_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/img_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/loc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/person1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/person2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/person3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/person4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/work_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/work_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/work_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/work_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/work_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/work_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/work_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/work_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/active_admin.js.coffee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/bootstrap/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/cable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/channels/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/github-activity/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/github-activity/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/github-activity/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/github-activity/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/github-activity/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/github-activity/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/github-activity/src/github-activity.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/github-activity/src/github-activity.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/github-calendar/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/github-calendar/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/github-calendar/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/github-calendar/dist/github-calendar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/github-calendar/dist/github-calendar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/github-calendar/example/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/github-calendar/example/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/github-calendar/example/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/github-calendar/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/github-calendar/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/jquery-1.11.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/jquery-rss/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/jquery-rss/.jscsrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/jquery-rss/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/jquery-rss/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/jquery-rss/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/jquery-rss/MIT-LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/jquery-rss/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/jquery-rss/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/jquery-rss/dist/compiler.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/jquery-rss/dist/jquery.rss.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/jquery-rss/examples/accordion.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/jquery-rss/examples/custom-dates.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/jquery-rss/examples/ezypay.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/jquery-rss/examples/zotero.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/jquery-rss/gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/jquery-rss/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/jquery-rss/lib/jquery-1.6.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/jquery-rss/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/jquery-rss/spec/jquery.rss.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/jquery-rss/src/jquery.rss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/posts.coffee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/active_admin.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/contacts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/css/bootstrap/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/css/bootstrap/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/css/bootstrap/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/css/bootstrap/.hound.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/css/bootstrap/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/css/bootstrap/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/css/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/css/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/css/bootstrap/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/css/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/css/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/css/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/css/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/css/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/css/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/css/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/css/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/css/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/css/scss/base.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/css/scss/mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/css/scss/responsive.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/css/scss/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/css/scss/theme-default.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/developer-v1.5/ReadMe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/developer-v1.5/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/developer-v1.5/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/posts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/channels/application_cable/channel.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/channels/application_cable/connection.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/concerns/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/messages_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/posts_controller.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/contacts_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/gravatar_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/posts_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/jobs/application_job.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/mailers/application_mailer.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/admin_user.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/application_record.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/category.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/concerns/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/message.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/post.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/site.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/snippet.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/mailer.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/mailer.text.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/messages/_flash.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/messages/_form.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/messages/create.js.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/messages/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/_about.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/_credits.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/_github.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/_information.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/_other.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/_plan.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/_project.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/_sidebar.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/_skil.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/_testimonials.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/_work.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/posts/show.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shered/_footer.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shered/_head.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shered/_nav.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shered/alert.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/bundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rails" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/setup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/spring" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/update" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/yarn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.ru" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/boot.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/cable.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/deploy.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/deploy/production.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environment.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/active_admin.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/application_controller_renderer.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/assets.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/cookies_serializer.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/devise.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/inflections.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/mime_types.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/new_framework_defaults_5_1.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/locales/devise.en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/locales/en.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/puma.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/secrets.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/spring.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20180325213509_create_posts.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20180325214100_devise_create_users.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20180325214426_devise_create_admin_users.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20180325214430_create_active_admin_comments.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20180325225909_add_attachment_image_to_posts.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20180326183511_create_ckeditor_assets.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20180327024657_create_categories.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20180327034454_create_sites.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20180327133252_add_attachment_logo_to_sites.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20180328012838_add_ref_category_to_posts.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20180328023246_create_snippets.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_marvio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_marvio.pub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/assets/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tasks/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/capistrano.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/development.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/test.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/422.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/apple-touch-icon-precomposed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/.sprockets-manifest-934eb06510d5fe710c33b98d3544585a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/active_admin-78afcb2b994bb222c1fd07eab90a8ae342910d7bff18ce61371ea64d56e995f8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/active_admin-78afcb2b994bb222c1fd07eab90a8ae342910d7bff18ce61371ea64d56e995f8.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/active_admin-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/active_admin-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/active_admin/print-7f3100524a41a695ed4624028c565d129f0e631017670eb1ef8e7b8b57aaa97a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/active_admin/print-7f3100524a41a695ed4624028c565d129f0e631017670eb1ef8e7b8b57aaa97a.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/application-79947c573c7bbb3395b1b7b147bf7e9211a219cf4c45cacd3e3d2da84cee4894.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/application-79947c573c7bbb3395b1b7b147bf7e9211a219cf4c45cacd3e3d2da84cee4894.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/application-936c21ee493767cee18c3f1dc0f9daf0b28754ba47163362be2beafd683d1bad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/application-936c21ee493767cee18c3f1dc0f9daf0b28754ba47163362be2beafd683d1bad.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/blue.css-075b9be197888a74cd05a0de04b5dfb39788c96d50b3f8932ca5bab9553500be.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap.css-ec9045c94a4328ddc80494903e126746b8f13063996fb2dcd996ab75967a4771.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/bootstrap/glyphicons-halflings-regular-13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/bootstrap/glyphicons-halflings-regular-13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407.eot.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/bootstrap/glyphicons-halflings-regular-42f60659d265c1a3c30f9fa42abcbb56bd4a53af4d83d316d6dd7a36903c43e5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/bootstrap/glyphicons-halflings-regular-42f60659d265c1a3c30f9fa42abcbb56bd4a53af4d83d316d6dd7a36903c43e5.svg.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/bootstrap/glyphicons-halflings-regular-a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/bootstrap/glyphicons-halflings-regular-e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/bootstrap/glyphicons-halflings-regular-e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456.ttf.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/icomoon/icomoon-3b3c065ebb4d060e5a44079ac0512a0ca1468ed0f6bb51ca597983da6180a1bd.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/icomoon/icomoon-3b3c065ebb4d060e5a44079ac0512a0ca1468ed0f6bb51ca597983da6180a1bd.eot.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/icomoon/icomoon-480e2f23a185b048c1557c2bb0571dcd0922086af32f44265068fd5abd78ab61.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/icomoon/icomoon-480e2f23a185b048c1557c2bb0571dcd0922086af32f44265068fd5abd78ab61.ttf.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/icomoon/icomoon-7b816e3c63123f24438b5d4723c563ec6acfa3bc8b4f97aa774d651282b320b3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/icomoon/icomoon-7b816e3c63123f24438b5d4723c563ec6acfa3bc8b4f97aa774d651282b320b3.svg.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/icomoon/icomoon-8e5bf8183795f1c9b9f7d14be18f67e1013752b6a063668befee02c5717cd5f6.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/icomoon/icomoon/Read Me-1b27a4d246c2eeb572202a52b242ca673d8388d44b9929d46927d441a2b09258.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/icomoon/icomoon/Read Me-1b27a4d246c2eeb572202a52b242ca673d8388d44b9929d46927d441a2b09258.txt.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/icomoon/icomoon/demo-2a2272990487a7cf7121d595154b801f3fca7c893d7e7a283945e19db07df57c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/icomoon/icomoon/demo-2a2272990487a7cf7121d595154b801f3fca7c893d7e7a283945e19db07df57c.html.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/icomoon/icomoon/fonts/icomoon-3b3c065ebb4d060e5a44079ac0512a0ca1468ed0f6bb51ca597983da6180a1bd.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/icomoon/icomoon/fonts/icomoon-3b3c065ebb4d060e5a44079ac0512a0ca1468ed0f6bb51ca597983da6180a1bd.eot.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/icomoon/icomoon/fonts/icomoon-480e2f23a185b048c1557c2bb0571dcd0922086af32f44265068fd5abd78ab61.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/icomoon/icomoon/fonts/icomoon-480e2f23a185b048c1557c2bb0571dcd0922086af32f44265068fd5abd78ab61.ttf.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/icomoon/icomoon/fonts/icomoon-7b816e3c63123f24438b5d4723c563ec6acfa3bc8b4f97aa774d651282b320b3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/icomoon/icomoon/fonts/icomoon-7b816e3c63123f24438b5d4723c563ec6acfa3bc8b4f97aa774d651282b320b3.svg.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/icomoon/icomoon/fonts/icomoon-8e5bf8183795f1c9b9f7d14be18f67e1013752b6a063668befee02c5717cd5f6.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/icomoon/icomoon/selection-12d6f1b859926c32a1cbe9e05842beb8a791bc841e8baf2f405e0fd5860bc78c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/icomoon/icomoon/selection-12d6f1b859926c32a1cbe9e05842beb8a791bc841e8baf2f405e0fd5860bc78c.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/simple-line-icons/Simple-Line-Icons-1097a16325f8b99cccf3692a7535d7bff43fbbb9dd53f1d1b5813e3ee0cbb431.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/simple-line-icons/Simple-Line-Icons-72bbd904eec22882287e50b2f64987560c8646abc0b8e942366a272a4fe7cd39.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/simple-line-icons/Simple-Line-Icons-765a0a929ac8a6de777d030a6f67070fbe8aad7df148491a2114ea61b9ea3721.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/simple-line-icons/Simple-Line-Icons-765a0a929ac8a6de777d030a6f67070fbe8aad7df148491a2114ea61b9ea3721.svg.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/simple-line-icons/Simple-Line-Icons-937e59152189ecedb8688efcd8b927fc40d43b5c5225a05a25f4cf537ad8ca7c.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/simple-line-icons/Simple-Line-Icons-937e59152189ecedb8688efcd8b927fc40d43b5c5225a05a25f4cf537ad8ca7c.ttf.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/simple-line-icons/Simple-Line-Icons-b76b3d1d99bab43d4f14134154fa008b09c663a14eb65048a03f3ee893279a74.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/fonts/simple-line-icons/Simple-Line-Icons-b76b3d1d99bab43d4f14134154fa008b09c663a14eb65048a03f3ee893279a74.eot.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/elate/README-9ffba438a657f6e326444840b3e92300b4226c7955a97165a5f97f3c24b35c71.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/elate/README-9ffba438a657f6e326444840b3e92300b4226c7955a97165a5f97f3c24b35c71.txt.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/elate/index-e1891b6a9a8fd1422bae6f34edc054c130179f17b3d068624196bfc3282f3f14.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/elate/index-e1891b6a9a8fd1422bae6f34edc054c130179f17b3d068624196bfc3282f3f14.html.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-7bfcab6db99d5cfbf1705ca0536ddc78585432cc5fa41bbd7ad0f009033b2979.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-7bfcab6db99d5cfbf1705ca0536ddc78585432cc5fa41bbd7ad0f009033b2979.eot.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-aa58f33f239a0fb02f5c7a6c45c043d7a9ac9a093335806694ecd6d4edc0d6a8.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-aa58f33f239a0fb02f5c7a6c45c043d7a9ac9a093335806694ecd6d4edc0d6a8.ttf.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-ad6157926c1622ba4e1d03d478f1541368524bfc46f51e42fe0d945f7ef323e4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-ad6157926c1622ba4e1d03d478f1541368524bfc46f51e42fe0d945f7ef323e4.svg.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/fontawesome-webfont-ba0c59deb5450f5cb41b3f93609ee2d0d995415877ddfa223e8a8a7533474f07.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/full_image_1-77ec07b4bb7b6ea2d4e0f1f333775ed0c65575ce3e0d43e566084020b49116d0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/full_image_2-e741f40c4a1fd2c87f00badf5079e10b83aff42c49af5c8c26aad73ad620d410.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img_10-f330ee2a73c27760736518850b463d395d7ff69b5fe57885bd8fe64ba44206ae.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img_7-d1a47775c86e0534248353f7108c392bfa2d014ddfc413c7b933bddaa63e7a0e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img_8-c62350df539ae7fa998ceea368fcaaed558d6ccf99e17da456d8a828c644d95e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/loc-124709ce495c027bff660df2c25045ad0bcc00645899b982928e267d5fc7cb4d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/person1-25987cbfe15afb0308e6a94220a70d41783ef2a974e5bef7f187e568d7872ae2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/person2-200ef74cd7f1b7a8c578e3bdf1068435608916ce50073e3b1b877bb214755a5a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/person3-7f0aa273d9d1b7b8936b7ece1ffad33e9096efb3d24bc9ed470ba95ba877c14c.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/person4-19809a9da8df0ca0ef3c864a6eb234ed42da2134258b5bec0acd190072b7a848.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/summernote-51449b195181776ea5280f6f9ea0a2c4bf639f2166db82c7194d3b93bb002cdc.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/summernote-51449b195181776ea5280f6f9ea0a2c4bf639f2166db82c7194d3b93bb002cdc.ttf.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/summernote-a449f625ce6b2bc6a00221dcaf2a2312ad80f64d47be3ffd13a51232ab92e983.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/summernote-f442da0293e943472648325cf34ed035295f3945d12eebeb90c6b5572f98d481.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/summernote-f442da0293e943472648325cf34ed035295f3945d12eebeb90c6b5572f98d481.eot.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/work_1-0e55cc9d028ed9deb7bfa713bec53db79542548fc342d8618a4e211be9678ef2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/work_2-d5c9b068c594455fcab2d8fe3973a3ad64d284236b3c8838c1475f8427a87fd1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/work_3-6227d8d57d7e48071e847e9be88cbb0a127ff1ce692918ff65ace0ed49f08f71.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/work_4-2a174920db161a1e8d40b5e49415bf76c8b2ccc31a57b0cb92a1732a73c981fc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/work_5-6ffd72a1f7374c3139add40128426cf7add4016cb389306e7b4892f6cb6f4a48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/work_6-b6d2ddddd035616729e29aa4f2a2b9f273e6b7ad8dc973d2816806a33b9b39c9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/work_7-11651823ec1b9085b01987a6a0de76e5ab801c1750d104c7ed0a60c808818ac3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/work_8-bfd81083fc1110509b969ab530eb0889030f9c90d4e98dcf6ed76e0e8164a097.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor_assets/pictures/1/content_Full_HD_Image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor_assets/pictures/1/original_Full_HD_Image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ckeditor_assets/pictures/1/thumb_Full_HD_Image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/posts/images/000/000/001/medium/Full_HD_Image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/posts/images/000/000/001/original/Full_HD_Image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/posts/images/000/000/001/thumb/Full_HD_Image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/posts/images/000/000/002/medium/maxresdefault.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/posts/images/000/000/002/original/maxresdefault.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/posts/images/000/000/002/thumb/maxresdefault.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/posts/images/000/000/003/medium/Deepin_Screenshot_selecionar_área_20180324113119.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/posts/images/000/000/003/original/Deepin_Screenshot_selecionar_área_20180324113119.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/posts/images/000/000/003/thumb/Deepin_Screenshot_selecionar_área_20180324113119.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/posts/images/000/000/004/medium/0001744_zoom_padaria-super-pao-padaria-santo-angelo-salgados-santo-angelo-pao-doce-cuca-bolacha-padaria--(10).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/posts/images/000/000/004/original/0001744_zoom_padaria-super-pao-padaria-santo-angelo-salgados-santo-angelo-pao-doce-cuca-bolacha-padaria--(10).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/posts/images/000/000/004/thumb/0001744_zoom_padaria-super-pao-padaria-santo-angelo-salgados-santo-angelo-pao-doce-cuca-bolacha-padaria--(10).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/posts/images/000/000/005/medium/Deepin_Screenshot_selecionar_área_20180327224100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/posts/images/000/000/005/original/Deepin_Screenshot_selecionar_área_20180327224100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/posts/images/000/000/005/thumb/Deepin_Screenshot_selecionar_área_20180327224100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/sites/logos/000/000/001/medium/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/sites/logos/000/000/001/original/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/system/sites/logos/000/000/001/thumb/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/application_system_test_case.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/contacts_controller_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/messages_controller_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/posts_controller_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/admin_users.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/categories.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/files/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/posts.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/sites.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/snippets.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/users.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/helpers/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/mailers/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/admin_user_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/category_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/message_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/post_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/site_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/snippet_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/user_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/system/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/.keep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/.keep" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Km21QxRJJdRDp4wpWPmyJYFd1Q" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
+    &quot;ruby.structure.view.model.defaults.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RubyModuleManagerSettings">
+    <option name="blackListedRootsPaths">
+      <list>
+        <option value="$PROJECT_DIR$" />
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Rails.marviorocha">
+    <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
+      <predefined_log_file enabled="true" id="RUBY_CUCUMBER" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPTS_PATHS" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="true" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
+      <predefined_log_file enabled="true" id="RUBY_RSPEC" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATHS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="RackRunConfigurationType" factoryName="Rack">
+      <RACK_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RACK_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RACK_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RACK_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RACK_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RACK_CONFIG_SETTINGS_ID NAME="PORT" VALUE="9292" />
+      <RACK_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RACK_CONFIG_SETTINGS_ID NAME="CONFIG_FILE" VALUE="" />
+      <RACK_CONFIG_SETTINGS_ID NAME="RACK_SERVER_TYPE" VALUE="Default" />
+      <RACK_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="marviorocha" type="RailsRunConfigurationType" factoryName="Rails">
+      <module name="marviorocha" />
+      <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="spec: marviorocha" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="marviorocha" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":rspec " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test: marviorocha" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="marviorocha" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":test_unit " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPTS_PATHS" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="CUSTOM_SET_OF_FILES" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75feddc0-4a73-4fa2-a9ae-e57a0df2c7c3" name="Changes" comment="" />
+      <created>1674565226694</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674565226694</updated>
+      <workItem from="1674565228237" duration="5360000" />
+      <workItem from="1674579844640" duration="842000" />
+      <workItem from="1674598292027" duration="2740000" />
+      <workItem from="1674602566899" duration="239000" />
+      <workItem from="1674602816772" duration="582000" />
+    </task>
+    <task id="LOCAL-00001" summary="Update baseurl">
+      <created>1674584167534</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674584167534</updated>
+    </task>
+    <task id="LOCAL-00002" summary="New github-pages workflows">
+      <created>1674598936292</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674598936292</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update baseurl" />
+    <MESSAGE value="New github-pages workflows" />
+    <option name="LAST_COMMIT_MESSAGE" value="New github-pages workflows" />
+  </component>
+</project>
