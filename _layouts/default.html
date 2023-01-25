@@ -1,20 +1,21 @@
-<!DOCTYPE html>
-<html data-content="night" lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!doctype html>
+
+<html lang="en">
+
+<head>
     <meta charset="utf-8">
-    <title>{{ page.title }} - {{ site.title }}</title>
+    <!-- warning: it's a demo, add appropriate format and meta or use Jekyll SEO plugin -->
+    <title>{{ page.title }}</title>
+    <meta name="description" content="Tailwindcss with Jekyll">
+
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-  </head>
-  <body>
 
-  {% include header.html %}
+</head>
 
-    {{ content }}
-    <div class="text-center">
-      {% include social.html %}
-    </div>
+<body>
+    <main>
+        {{ content }}
+    </main>
+</body>
 
-  {% include footer.html %}
-  </body>
 </html>

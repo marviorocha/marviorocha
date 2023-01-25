@@ -1,19 +1,18 @@
 module.exports = {
+  mode: 'jit',
   content: [
-    './_drafts/**/*.html',
     './_includes/**/*.html',
     './_layouts/**/*.html',
-    './_posts/*.md',
-    './*.md',
+    './_posts/*.html',
     './*.html',
   ],
   theme: {
-    theme: {
-      extend: {},
-    },
+    extend: {},
   },
-  plugins: [require("daisyui")],
-  daisyui: {
-    themes: ["light", "dark", "cupcake", "bumblebee", "emerald", "corporate", "synthwave", "retro", "cyberpunk", "valentine", "halloween", "garden", "forest", "aqua", "lofi", "pastel", "fantasy", "wireframe", "black", "luxury", "dracula", "cmyk", "autumn", "business", "acid", "lemonade", "night", "coffee", "winter"],
+  variants: {
+    extend: {},
   },
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }
