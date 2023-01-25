@@ -6,13 +6,18 @@
     <meta charset="utf-8">
     <!-- warning: it's a demo, add appropriate format and meta or use Jekyll SEO plugin -->
     <title>{{ page.title }}</title>
-    <meta name="description" content="Tailwindcss with Jekyll">
+    <meta name="description" content="{{ page.description }}">
 
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+    <script src="{{ "/assets/javascript/main.js" | relative_url }}"></script>
+
 
 </head>
 
 <body>
+
+<canvas class="background"></canvas>
     <main>
         {{ content }}
     </main>
