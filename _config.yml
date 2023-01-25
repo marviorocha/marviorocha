@@ -1,5 +1,5 @@
-url: ''
-baseurl: ''
+url: 'https://marviorocha.com'
+baseurl: 'marviorocha.com'
 title: 'MarvioRocha.Com'
 
 plugins:
