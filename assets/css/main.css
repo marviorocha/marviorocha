@@ -2,11 +2,11 @@
 # front matter for Jekyll recognition
 ---
 
-@tailwind base; /* Preflight will be injected here */
-
+@charset "utf-8";
+@tailwind base;
 @tailwind components;
-
 @tailwind utilities;
+@tailwind variants;
 
 html, body {
     margin: 0;

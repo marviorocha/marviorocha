@@ -12,7 +12,10 @@ plugins:
   - jekyll-postcss
 
 css_dir: "assets/css"
- 
+
+postcss:
+  cache: false
+  
 exclude:
   - node_modules/
   - yarn.lock
