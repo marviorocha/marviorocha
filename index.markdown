@@ -1,4 +1,4 @@
 ---
-title: Ruby On Rails - Development | Marvio Rocha
+title: Marvio Rocha - Full-stack Developer - MarvioRocha.Com
 layout: home
 ---

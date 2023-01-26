@@ -5,7 +5,7 @@ layout: default
 <div class="min-h-screen min-w-full flex flex-col justify-center p-10">
     <div class="relative w-full max-w-full lg:max-w-6xl   mx-auto">
        
-        <div class="relative bg-indigo-400  shadow-lg sm:rounded-3xl">
+        <div class="relative">
 
 <!--            <div class="flex items-center justify-start pt-6 pl-6">-->
 <!--                <span class="w-3 h-3 bg-red-400 rounded-full mr-2"></span>-->
@@ -17,20 +17,31 @@ layout: default
 
 
                 <!-- hero section -->
-                <div class="lg:2/6 xl:w-2/4 mt-2 lg:mt-40 lg:ml-16 text-left">
-                    <div class="text-6xl font-semibold text-witer leading-none">Marvio Rocha </div>
-                    <div class="mt-5 text-xl font-light text-true-gray-500 antialiased">Full Stack | Development</div>
+                <div class=" text-left">
+                    <div class="text-6xl font-semibold text-white leading-none">Marvio Rocha </div>
+                    <div class="mt-6 text-xl font-light text-white antialiased">Full Stack | Development</div>
+
+                         <div class="mockup-code bg-primary mt-5">
+                             <pre data-prefix="$"><code>touch marviorocha.rb</code></pre>
+                             <pre data-prefix="$" class="text-warning" ><code>git add marviorocha.rb</code></pre>
+                             <pre data-prefix="$" class="text-warning" ><code>git commit -m "add: developer full stack ruby on rails"</code></pre>
+                             <pre data-prefix="$" class="text-warning" ><code>git push ...</code></pre>
+                             <pre   class="text-success"><code><a class="mx-auto" target="_blank" href="https://linkedin.com/in/marviorocha"> # => Now browse to linkedin.com/in/marviorocha</a></code></pre>
+                             <pre date-prefix=">" ><code>================================================================================</code></pre>
+
+                         </div>
+
                    
                 </div>
-                <div class="mt-12 lg:mt-32 lg:ml-20 text-left">
-                    <button type="button"
-                        class="flex items-center justify-center w-12 h-12 rounded-full bg-cool-gray-100 text-gray-800 animate-bounce hover:text-gray-900 hover:bg-cool-gray-50 transition duration-300 ease-in-out cursor-pointer">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
-                        </svg>
-                    </button>
+                <div class="mt-max-h-full lg:mt-auto   text-center">
+
+                    <footer class="footer footer-center p-4 mt-12 text-white text-base-content">
+                        <div>
+                            <p>Copyright ©  {{ "now" | date: "%Y" }} All right reserved | Website make with ♥️ by MarvioRocha.com </p>
+                        </div>
+                    </footer>
+                      
+
                 </div>
 
                 <!-- /hero section -->
