@@ -1,12 +1,13 @@
 ---
 # front matter for Jekyll recognition
 ---
-@import
-"base",
-"layout",
-"components",
-"utilities";
- 
+
+@tailwind base; /* Preflight will be injected here */
+
+@tailwind components;
+
+@tailwind utilities;
+
 html, body {
     margin: 0;
     padding: 0;
