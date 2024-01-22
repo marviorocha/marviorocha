@@ -5,6 +5,6 @@ import netlify from "@astrojs/netlify";
 // https://astro.build/config
 export default defineConfig({
 	output: 'server',
-	site: 'https://marviorocha.com'
+	site: 'https://marviorocha.com',
   adapter: netlify()
 });
