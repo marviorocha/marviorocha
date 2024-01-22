@@ -1,120 +1,166 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
 
-import ContactCTA from '../components/ContactCTA.astro';
-import Hero from '../components/Hero.astro';
+import ContactCTA from "../components/ContactCTA.astro";
+import Hero from "../components/Hero.astro";
+import Pill from "../components/Pill.astro";
 ---
 
-<BaseLayout title="About | Jeanine White" description="About Jeanine White Lorem Ipsum">
-	<div class="stack gap-20">
-		<main class="wrapper about">
-			<Hero
-				title="About"
-				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
-			>
-				<img
-					width="1553"
-					height="873"
-					src="/assets/at-work.jpg"
-					alt="Jeanine White at work with a colleague"
-				/>
-			</Hero>
+<BaseLayout
+  title="About | Jeanine White"
+  description="About Jeanine White Lorem Ipsum"
+>
+  <div class="stack gap-20">
+    <main class="wrapper about">
+      <Hero
+        title="About"
+        tagline="Thanks for stopping by. Read below to learn more about myself and my background."
+      >
+        <img
+          width="1553"
+          height="873"
+          src="/assets/at-work.jpg"
+          alt="Marvio Rocha White at work with a colleague"
+        />
+      </Hero>
 
-			<section>
-				<h2 class="section-title">Background</h2>
-				<div class="content">
+      <section>
+        <h2 class="section-title">Background</h2>
+        <div class="content">
+          <p style="margin-bottom: 20px;">
+            With over three years of experience as a Mid-Level Full Stack
+            developer, I bring a blend of expertise in PHP/MySQL, HTML5, CSS3,
+            and Ruby on Rails to the table. My proficiency in Postgres/SQL
+            enables me to create tables, manipulate data, list data, and declare
+            variables, while my Docker skills allow me to craft shell scripts
+            with docker-compose via the Linux command line.
+          </p>
+					
+					<p style="margin-bottom: 20px;">
+            In the realm of Ruby on Rails, I excel in developing object-oriented
+            applications, employing Classic TDD methodologies with Rspec and
+            Capybara. My expertise extends to creating microservices with Full
+            Rest APIs and Authentication via JWT.
+          </p>
+					<p style="margin-bottom: 20px;">
+            My contributions have been instrumental in the success of the
+            company, with each achievement expanding my reach across diverse
+            market segments, including Industries, Education, Health, and
+            Technology, serving clients of all sizes, from small to medium to
+            large enterprises.
+          </p>
+           
+        </div>
+      </section>
+      <section>
+        <h2 class="section-title">Skills</h2>
+        <div class="content">
+          
+					<div style="width: 20%;">
+			 
+							 
+							<Pill>Ruby on Rails</Pill>
+							<Pill>Postgres/SQL</Pill> 
+							<Pill>Flutter/Dart</Pill> 
+							<Pill>VueJS</Pill> 
+							<Pill>Rest APIs</Pill>
+						
+			 
+						
+						 
+						</div>
+        </div>
+      </section>
+      <section>
+        <h2 class="section-title">Work Experience
+				</h2>
+        <div class="content">
+          <p style="margin-bottom: 10px;"><b class="style">Full Stack Ruby On Rails</b>
+						Inteligov | Apr 2022 - Mar 2023
 					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum
-						id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla
-						pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
+						Ruby
+						HTML/CSS
+						Ruby on Rails
+						React
+						JavaScript
+						Adding new features to the government management system using the React framework and Ruby on Rails
+						Adding records to the Postgres database using the web Scrapy technique
+						Improving the customer system by doing end to end testing using cypress and rspec.
+						Improvements with the client helping to improve their user registration system in advanced forms.
 					</p>
+					</p>
+					<p style="margin: 10px 0px 10px 0px;"><b class="style">Full Stack Ruby On Rails</b>
+						Sistema Tech | Oct 2021 - Jun 2022
 					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
+						HTML/CSS
+						Ruby on Rails
+						JavaScript
+						Svelte
+						Sistema Tech is a Brazilian company with over 22 years of history. Marvio has worked with Ruby on Rails, in a financial system, as a backend developer using Ruby, Rails, Postgresql and RestFull API.
 					</p>
-					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
 					</p>
-				</div>
-			</section>
-			<section>
-				<h2 class="section-title">Education</h2>
-				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
-				</div>
-			</section>
-			<section>
-				<h2 class="section-title">Skills</h2>
-				<div class="content">
-					<p>officia unde omnis</p>
-				</div>
-			</section>
-		</main>
+        </div>
+      </section>
+    </main>
 
-		<ContactCTA />
-	</div>
+    <ContactCTA />
+  </div>
 </BaseLayout>
 
 <style>
-	.about {
-		display: flex;
-		flex-direction: column;
-		gap: 3.5rem;
-	}
+  .about {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+  }
 
-	img {
-		margin-top: 1.5rem;
-		border-radius: 1.5rem;
-		box-shadow: var(--shadow-md);
-	}
+  img {
+    margin-top: 1.5rem;
+    border-radius: 1.5rem;
+    box-shadow: var(--shadow-md);
+  }
 
-	section {
-		display: flex;
-		flex-direction: column;
-		gap: 0.5rem;
-		color: var(--gray-200);
-	}
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: var(--gray-200);
+  }
 
-	.section-title {
-		grid-column-start: 1;
-		font-size: var(--text-xl);
-		color: var(--gray-0);
-	}
+  .section-title {
+    grid-column-start: 1;
+    font-size: var(--text-xl);
+    color: var(--gray-0);
+  }
 
-	.content {
-		grid-column: 2 / 4;
-	}
+  .content {
+    grid-column: 2 / 4;
+  }
 
-	.content :global(a) {
-		text-decoration: 1px solid underline transparent;
-		text-underline-offset: 0.25em;
-		transition: text-decoration-color var(--theme-transition);
-	}
+  .content :global(a) {
+    text-decoration: 1px solid underline transparent;
+    text-underline-offset: 0.25em;
+    transition: text-decoration-color var(--theme-transition);
+  }
 
-	.content :global(a:hover),
-	.content :global(a:focus) {
-		text-decoration-color: currentColor;
-	}
+  .content :global(a:hover),
+  .content :global(a:focus) {
+    text-decoration-color: currentColor;
+  }
 
-	@media (min-width: 50em) {
-		.about {
-			display: grid;
-			grid-template-columns: 1fr 60% 1fr;
-		}
+  @media (min-width: 50em) {
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 60% 1fr;
+    }
 
-		.about > :global(:first-child) {
-			grid-column-start: 2;
-		}
+    .about > :global(:first-child) {
+      grid-column-start: 2;
+    }
 
-		section {
-			display: contents;
-			font-size: var(--text-lg);
-		}
-	}
+    section {
+      display: contents;
+      font-size: var(--text-lg);
+    }
+  }
 </style>
