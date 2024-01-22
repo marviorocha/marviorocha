@@ -26,6 +26,6 @@ With Station Pro, you can easily manage your station’s schedule, playlists, on
 - Javascript
 - Wordpress
 
-Visite: <a href='https://www.stationpro.co' target='_blank' title='Station Pro'>www.stationpro.co</a>
+Go to: <a href='https://www.stationpro.co' target='_blank' title='Station Pro'>www.stationpro.co</a>
 
 

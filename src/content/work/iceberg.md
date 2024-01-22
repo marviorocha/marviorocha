@@ -17,4 +17,4 @@ tags:
 
 Experience in the marine, industrial and commercial refrigeration market, with full knowledge of the segment it covers, offering our customers long-lasting relationships that inspire trust and credibility.
 
-Visite: a <a href='https://www.iceberg.com.br' target='_blank' title='Iceberg'>www.iceberg.com.br</a>
+Visit:  <a href='https://www.iceberg.com.br' target='_blank' title='Iceberg'>www.iceberg.com.br</a>

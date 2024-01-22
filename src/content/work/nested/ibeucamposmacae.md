@@ -7,9 +7,10 @@ description: |
   IBEU Campos Macaé is an English language teaching institution officially recognized by the American Embassy
 tags:
   - Dev
-  - vuejs
-  - astro
-  - ruby
+  - VueJS
+  - Astro
+  - javascript
+  - TailwindCSS
 ---
 
 IBEU Campos Macaé is committed to the dissemination of Brazilian and American cultures! IBEU Campos Macae offers several international exams that prove English language proficiency: the ECCE (Examination for the Certificate of Competency in English), the ECPE (Examination for the Certificate of Proficiency in English) and the MET (Michigan English Test), among others.
