@@ -23,7 +23,7 @@
         "title": "Resume Download",
         "description": "Download my complete resume to see my experience, academic background, and detailed technical skills.",
         "button": "Download PDF",
-        "url_download": "src/assets/MeuCurriculum-PT-BR.pdf"
+        "url_download": "https://res.cloudinary.com/delqcamot/image/upload/v1747498986/marviorocha.com/MeuCurriculum-PT-BR_gfkbzq.pdf"
     },
     "contact": {
         "title": "Contact Me",
@@ -32,7 +32,7 @@
         "label_mensagem": "Write your Message",
         "button": "Send",
         "description": "I'm available for new projects and opportunities. Contact me through the form or directly through the channels below:",
-        "success": "Message sent successfully! Thank you for contacting.",
+        "sucess": "Message sent successfully! Thank you for contacting.",
         "error": "An error occurred while sending the message. Please try again later."
     },
     "footer": {
@@ -50,7 +50,7 @@
         },
         "user2": {
             "description": "Very competent and dedicated professionals. Amazing result!",
-            "name": "João Santos"
+            "name": "Maira Ribeiro"
         },
         "user3": {
             "description": "Great experience! Work done with high quality and punctuality.",
@@ -63,26 +63,26 @@
         "client1": {
             "title": "StationPro.co",
             "description": "Music player with minimalist interface for WordPress",
-            "image": "src/assets/projects/stationpro.jpg",
+            "image": "https://res.cloudinary.com/delqcamot/image/upload/v1747502084/marviorocha.com/projects/stationpro_dceowo.jpg",
             "url": "https://stationpro.co"
         },
         "client2": {
             "title": "Ibeu Campos Macaé",
             "description": "Institutional website for Ibeu Campos Macaé Language School",
-            "image": "src/assets/projects/ibeu.jpg",
+            "image": "https://res.cloudinary.com/delqcamot/image/upload/v1747502087/marviorocha.com/projects/ibeu_j0tbxm.jpg",
             "url": "https://ibeucamposmacae.com.br"
         },
         "client3": {
             "title": "App Serene - Relax",
             "description": "Mobile application to relax body and mind",
-            "image": "src/assets/projects/serene.jpg",
+            "image": "https://res.cloudinary.com/delqcamot/image/upload/v1747502086/marviorocha.com/projects/serene_q392ds.jpg",
             "url": "https://serene-br.netlify.app/"
         },
         "client4": {
             "title": "Quiz",
             "description": "Quiz application to test knowledge",
-            "image": "src/assets/projects/quiz.jpg",
-            "url": "https://stationpro.co"
+            "image": "https://res.cloudinary.com/delqcamot/image/upload/v1747502085/marviorocha.com/projects/quiz_gt9kmn.jpg",
+            "url": "https://marvio-quizapp.netlify.app"
         }
     }
 }

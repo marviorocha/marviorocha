@@ -4,8 +4,10 @@ import Logo from "../assets/logo.svg";
 import Usa from "../assets/icons/usa.svg";
 import Brasil from "../assets/icons/brazil.svg";
 const { strings } = Astro.props;
+import { CldImage } from "astro-cloudinary";
 ---
 
+ 
 <header
     id="header-nav"
     class="fixed w-full top-0 z-50 bg-white bg-opacity-50 transition-all duration-300"
@@ -48,7 +50,7 @@ const { strings } = Astro.props;
                         d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
                 </svg>
             </button>
-        
+
             <!-- Menu Desktop -->
             <div class="hidden lg:flex gap-6 uppercase">
                 <a
@@ -168,5 +170,3 @@ const { strings } = Astro.props;
         mobileMenu.classList.toggle("hidden");
     });
 </script>
-
- 

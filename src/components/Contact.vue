@@ -61,7 +61,7 @@
             <span v-else>{{ strings.contact.button }}</span>
           </button>
 
-          <div v-if="formStatus.success" class="alert flex gap-2 alert-success mt-4">
+          <div v-if="formStatus.success" class="alert text-base-200 flex gap-2 alert-success mt-4">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
               stroke="currentColor" class="size-6">
               <path stroke-linecap="round" stroke-linejoin="round"
@@ -80,11 +80,13 @@
 
             {{ strings.contact.error }}
           </div>
+          <input type="hidden" name="_gotcha" style="display:none !important">
         </form>
       </div>
     </div>
-  </section>
 
+
+  </section>
 
 </template>
 <script setup>
@@ -92,7 +94,7 @@ import { ref, reactive } from 'vue'
 const props = defineProps({
   strings: Object
 });
-const formspreeUrl = "https://formspree.io/f/marviorocha@marviorocha.com"
+const formspreeUrl = "https://formspree.io/f/mldbzarn"
 
 const formData = reactive({
   name: "",

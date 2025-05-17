@@ -27,12 +27,12 @@ defineProps({
   strings: Object
 });
 const skills = [
-  { name: "Ruby On Rails", icon: "src/assets/icons/ruby.svg", level: 90, color: "progress-secondary" },
-  { name: "Python", icon: "src/assets/icons/python.svg", level: 50, color: "progress-warning" },
-  { name: "Flutter", icon: "src/assets/icons/flutter.svg", level: 50, color: "progress-info" },
-  { name: "PostgreSQL / MySQL", icon: "src/assets/icons/postgresql.svg", level: 75, color: "progress-primary" },
-  { name: "Vue", icon: "src/assets/icons/vue.svg", level: 30, color: "progress-accent" },
-  { name: "Docker", icon: "src/assets/icons/docker-compose.svg", level: 80, color: "progress-primary" },
+  { name: "Ruby On Rails", icon: "../assets/icons/ruby.svg", level: 90, color: "progress-secondary" },
+  { name: "Python", icon: "../assets/icons/python.svg", level: 50, color: "progress-warning" },
+  { name: "Flutter", icon: "../assets/icons/flutter.svg", level: 50, color: "progress-info" },
+  { name: "PostgreSQL / MySQL", icon: "../assets/icons/postgresql.svg", level: 75, color: "progress-primary" },
+  { name: "Vue", icon: "../assets/icons/vue.svg", level: 30, color: "progress-accent" },
+  { name: "Docker", icon: "../assets/icons/docker-compose.svg", level: 80, color: "progress-primary" },
   // outros
 ];
 </script>

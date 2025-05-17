@@ -55,17 +55,17 @@ const config = {
 
 const slides = [
   {
-    image: 'src/assets/depoiments/client1.jpg',
+    image: 'https://res.cloudinary.com/delqcamot/image/upload/v1747502703/marviorocha.com/clientes/client1_ggnsgt.jpg',
     text: props.strings.testimonials.user1.description,
     name: props.strings.testimonials.user1.name
   },
   {
-    image: 'src/assets/depoiments/client2.jpg',
+    image: 'https://res.cloudinary.com/delqcamot/image/upload/v1747502701/marviorocha.com/clientes/client4_e4mplp.jpg',
     text: props.strings.testimonials.user2.description,
     name: props.strings.testimonials.user2.name
   },
   {
-    image: 'src/assets/depoiments/client3.jpg',
+    image: 'https://res.cloudinary.com/delqcamot/image/upload/v1747502700/marviorocha.com/clientes/client2_q7m2gs.jpg',
     text: props.strings.testimonials.user3.description,
     name: props.strings.testimonials.user3.name
   }
