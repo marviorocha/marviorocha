@@ -31,3 +31,16 @@ navigation {
 .logo {
     font-weight: bold;
 }
+
+.scroll-down {
+    transform: translateY(-2%);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    transition:
+        transform 0.3s ease-in-out,
+        box-shadow 0.3s ease-in-out;
+}
+
+.scroll-up {
+    transform: translateY(0);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}

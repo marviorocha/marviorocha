@@ -15,7 +15,7 @@
 
 <script setup>
 document.addEventListener('DOMContentLoaded', function () {
-  const skillLevel =
+  let skillLevel =
     document.querySelector('[data-element="skill"]').textContent || 100;
   if (skillLevel === undefined) skillLevel = 100;
 

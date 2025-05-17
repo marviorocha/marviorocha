@@ -1,5 +1,4 @@
 ---
-// Importações necessárias
 import { Image } from "astro:assets";
 import Logo from "../assets/logo.svg";
 import Usa from "../assets/icons/usa.svg";
@@ -49,7 +48,7 @@ const { strings } = Astro.props;
                         d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
                 </svg>
             </button>
-
+        
             <!-- Menu Desktop -->
             <div class="hidden lg:flex gap-6 uppercase">
                 <a
@@ -170,17 +169,4 @@ const { strings } = Astro.props;
     });
 </script>
 
-<style>
-    .scroll-down {
-        transform: translateY(-2%);
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-        transition:
-            transform 0.3s ease-in-out,
-            box-shadow 0.3s ease-in-out;
-    }
-
-    .scroll-up {
-        transform: translateY(0);
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-    }
-</style>
+ 

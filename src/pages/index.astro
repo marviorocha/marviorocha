@@ -1,19 +1,30 @@
 ---
+import "../styles/global.css";
 import { Image } from "astro:assets";
 import Logo from "../assets/logo.svg";
 ---
 
-<html lang="pt-BR">
+<!doctype html>
+<html class="scroll-smooth" data-theme="light" lang="pt-BR">
 	<head>
 		<meta charset="UTF-8" />
-		<title>Redirecting...</title>
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>
+			Redirecting...
+		</title>
 	</head>
-	<body class="flex items-center justify-center h-screen">
-		<div class="text-center">
-			<Image src={Logo} alt="Logo" width={200} />
-			<p class="mt-4 text-xl">Redirecionando para sua versão local...</p>
+	<body>
+		<div
+			class="text-center flex flex-col items-center mx-auto justify-center h-screen"
+		>
+			<Image src={Logo} alt="Logo" width={300} height={200} />
+			<p class="mt-4 text-xl">
+				<span class="loading loading-infinity loading-lg"
+				></span>Redirecionando para sua versão local...
+			</p>
 		</div>
-
 		<script>
 			// Função para detectar localização e redirecionar
 			if (navigator.geolocation) {
@@ -52,4 +63,6 @@ import Logo from "../assets/logo.svg";
 			}
 		</script>
 	</body>
+
+	
 </html>
