@@ -40,7 +40,7 @@ onMounted(() => {
       } else {
         clearInterval(interval);
       }
-    }, 15); // controla a velocidade da animação (15ms por incremento)
+    }, 30); // controla a velocidade da animação (15ms por incremento)
   });
 });
 </script>
