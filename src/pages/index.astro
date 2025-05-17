@@ -1,24 +1,55 @@
 ---
-// import Welcome from "../components/Welcome.astro";
-import Layout from "../layouts/Layout.astro";
-
-import Header from "../components/Header.astro";
-import Hero from "../components/Hero.astro";
-import Depoiment from "../components/Depoiment.vue";
-
-import Resume from "../components/Resume.astro";
-import Skills from "../components/Skills.vue";
-import Contact from "../components/Contact.vue";
-import Footer from "../components/Footer.astro";
+import { Image } from "astro:assets";
+import Logo from "../assets/logo.svg";
 ---
 
-<Layout>
-	<Header client:load />
-	<Hero />
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Redirecting...</title>
+	</head>
+	<body class="flex items-center justify-center h-screen">
+		<div class="text-center">
+			<Image src={Logo} alt="Logo" width={200} />
+			<p class="mt-4 text-xl">Redirecionando para sua versão local...</p>
+		</div>
 
-	<Skills />
-	<Depoiment client:load />
-	<Resume />
-	<Contact client:load />
-	<Footer />
-</Layout>
+		<script>
+			// Função para detectar localização e redirecionar
+			if (navigator.geolocation) {
+				navigator.geolocation.getCurrentPosition(
+					(position) => {
+						// Aqui poderia usar API externa para detectar país via coordenadas
+						// Mas para demo simples, vamos usar o idioma do navegador
+						const lang =
+							navigator.language || navigator.userLanguage;
+
+						if (lang.startsWith("en")) {
+							window.location.href = "/en";
+						} else {
+							window.location.href = "/pt-br";
+						}
+					},
+					(error) => {
+						// Caso usuário negue ou falhe — fallback pro idioma do navegador
+						const lang =
+							navigator.language || navigator.userLanguage;
+						if (lang.startsWith("en")) {
+							window.location.href = "/en";
+						} else {
+							window.location.href = "/pt-br";
+						}
+					},
+				);
+			} else {
+				// Se geolocalização não disponível, usa idioma do navegador
+				const lang = navigator.language || navigator.userLanguage;
+				if (lang.startsWith("en")) {
+					window.location.href = "/en";
+				} else {
+					window.location.href = "/pt-br";
+				}
+			}
+		</script>
+	</body>
+</html>
