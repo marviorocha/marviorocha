@@ -5,7 +5,7 @@
       768: {
         itemsToShow: 2
       },
-      375: {
+      320: {
         itemsToShow: 1
       }
     }">
