@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@import '@fontsource/inter/400.css';
+
+
+@import '@fontsource/inter/700.css';
+
+
+@plugin "daisyui" {
+    themes: light --default, dark --prefersdark;
+    root: ":root";
+    include: ;
+    exclude: ;
+    prefix: ;
+    logs: true;
+}
+
+
+:root {
+    scrollbar-color: color-mix(in oklch, currentColor 35%, #0000) #0000;
+}
+
+
+
+@utility btn {
+    @apply rounded-lg;
+}
+
+[data-theme="light"] {
+    --font-sans: 'Inter', 'sans-serif';
+
+    .btn-primary {
+        background-color: #274073;
+        border-color: #203663;
+    }
+
+    .btn-primary:hover {
+        background-color: #325292;
+        border-color: #203663;
+    }
+}

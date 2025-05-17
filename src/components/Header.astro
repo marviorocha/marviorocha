@@ -1,0 +1,186 @@
+---
+// Importações necessárias
+import { Image } from "astro:assets";
+import Logo from "../assets/logo.svg";
+import Usa from "../assets/icons/usa.svg";
+import Brasil from "../assets/icons/brazil.svg";
+const { strings } = Astro.props;
+---
+
+<header
+    id="header-nav"
+    class="fixed w-full top-0 z-50 bg-white bg-opacity-50 transition-all duration-300"
+>
+    <nav class="navbar container mx-auto max-w-7xl">
+        <div class="flex items-center justify-between w-full">
+            <!-- Logo -->
+            <a
+                href="#home"
+                :title="strings.title"
+                class="text-xl font-bold text-neutral"
+            >
+                <figure>
+                    <Image
+                        src={Logo}
+                        alt="Logo Marvio Rocha - www.marviorocha.com"
+                        height={120}
+                        width={250}
+                    />
+                </figure>
+            </a>
+
+            <!-- Botão mobile -->
+            <button
+                id="mobile-menu-button"
+                class="btn btn-ghost lg:hidden ml-auto"
+                aria-label="Abrir menu mobile"
+            >
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+                </svg>
+            </button>
+
+            <!-- Menu Desktop -->
+            <div class="hidden lg:flex gap-6 uppercase">
+                <a
+                    class="btn btn-ghost text-[#374151] hover:text-blue-800"
+                    href="#home">{strings.menu.home}</a
+                >
+                <a
+                    class="btn btn-ghost text-[#374151] hover:text-blue-800"
+                    href="#projects">{strings.menu.projects}</a
+                >
+                <a
+                    class="btn btn-ghost text-[#374151] hover:text-blue-800"
+                    href="#skills">{strings.menu.skills}</a
+                >
+                <a
+                    class="btn btn-ghost text-[#374151] hover:text-blue-800"
+                    href="#resume">{strings.menu.resume}</a
+                >
+                <a
+                    class="btn btn-ghost text-[#374151] hover:text-blue-800"
+                    href="#testimonials">{strings.menu.depoiments}</a
+                >
+            </div>
+
+            <!-- Idiomas e contato (Desktop) -->
+            <div class="hidden lg:flex flex-1 justify-end items-center gap-4">
+                <a
+                    class="flex gap-2 items-center text-[#374151] hover:text-blue-800"
+                    title="English"
+                    href="/en"
+                >
+                    <Image src={Usa} width={20} alt="English" /> ENG
+                </a>
+                <a> | </a>
+                <a
+                    class="flex gap-2 items-center text-[#374151] hover:text-blue-800"
+                    title="Português"
+                    href="/pt-br"
+                >
+                    <Image src={Brasil} width={20} alt="Português" /> PT-BR
+                </a>
+                <a href="#contact" class="btn btn-primary"
+                    >{strings.menu.contact}</a
+                >
+            </div>
+        </div>
+    </nav>
+
+    <!-- Menu Mobile -->
+    <div
+        id="mobile-menu"
+        class="hidden flex-col gap-4 bg-white w-full shadow-md lg:hidden px-6 py-4 transition-all duration-300"
+    >
+        <a class="btn btn-ghost w-full justify-start" href="#home"
+            >{strings.menu.home}</a
+        >
+        <a class="btn btn-ghost w-full justify-start" href="#projects"
+            >{strings.menu.projects}</a
+        >
+        <a class="btn btn-ghost w-full justify-start" href="#skills"
+            >{strings.menu.skills}</a
+        >
+        <a class="btn btn-ghost w-full justify-start" href="#resume"
+            >{strings.menu.resume}</a
+        >
+        <a class="btn btn-ghost w-full justify-start" href="#testimonials"
+            >{strings.menu.depoiments}</a
+        >
+
+        <div class="flex justify-between mt-4">
+            <a class="flex btn btn-ghost items-center gap-1" href="/en">
+                <Image src={Usa} width={20} alt="English" /> ENG
+            </a>
+            <a class="flex btn btn-ghost items-center gap-1" href="/pt-br">
+                <Image src={Brasil} width={20} alt="Português" /> PT-BR
+            </a>
+        </div>
+
+        <a href="#contact" class="btn btn-primary mt-4"
+            >{strings.menu.contact}</a
+        >
+    </div>
+</header>
+
+<script>
+    const header = document.getElementById("header-nav");
+    const mobileMenu = document.getElementById("mobile-menu");
+    const menuButton = document.getElementById("mobile-menu-button");
+
+    let lastScroll = 20;
+
+    // Controle de scroll-up / scroll-down
+    window.addEventListener("scroll", () => {
+        const currentScroll = window.pageYOffset;
+        if (currentScroll <= 0) {
+            header.classList.remove("scroll-up");
+            return;
+        }
+        if (
+            currentScroll > lastScroll &&
+            !header.classList.contains("scroll-down")
+        ) {
+            header.classList.remove("scroll-up");
+            header.classList.add("scroll-down");
+        } else if (
+            currentScroll < lastScroll &&
+            header.classList.contains("scroll-down")
+        ) {
+            header.classList.remove("scroll-down");
+            header.classList.add("scroll-up");
+        }
+        lastScroll = currentScroll;
+    });
+
+    // Toggle do menu mobile
+    menuButton.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+    });
+</script>
+
+<style>
+    .scroll-down {
+        transform: translateY(-2%);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        transition:
+            transform 0.3s ease-in-out,
+            box-shadow 0.3s ease-in-out;
+    }
+
+    .scroll-up {
+        transform: translateY(0);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    }
+</style>

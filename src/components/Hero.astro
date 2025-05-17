@@ -1,0 +1,68 @@
+---
+import Image from "astro/components/Image.astro";
+import Profile from "../assets/profile.png";
+import Project from "./Projects.vue";
+ 
+ 
+const { strings } = Astro.props;
+---
+
+<section
+    class="md:hero md:bg-[url(src/assets/bg_hero.png)] bg-top bg-no-repeat"
+>
+    <div class="md:container md:min-h-[1277px] mx-auto px-6">
+        <div
+            class="hero-content lg:mt-36 flex-col justify-center mx-auto text-center gap-8"
+        >
+            <div class="avatar">
+                <div class="w-40 rounded-full">
+                    <Image
+                        src={Profile}
+                        width={160}
+                        height={160}
+                        alt="Marvio Rocha"
+                    />
+                </div>
+            </div>
+            <div>
+                <h1 class="text-3xl md:text-5xl font-bold text-[#111827]">
+                    <span id="typewriter"></span>
+                </h1>
+                <p class="py-2 text-lg text-neutral">
+                    {strings.hero.description}
+                </p>
+                <a href="#projetos" class="btn btn-primary">
+                    {strings.hero.button}</a
+                >
+            </div>
+        </div>
+    </div>
+    <div class="mt-0 md:mt-20"><Project client:load strings={strings} /></div>
+</section>
+
+<!-- Carrega o TypewriterJS via CDN -->
+<script is:inline src="https://unpkg.com/typewriter-effect@latest/dist/core.js"
+></script>
+
+<!-- Script para inicializar o TypewriterJS -->
+<script is:inline define:vars={{ strings }}>
+    document.addEventListener("DOMContentLoaded", function () {
+        const typewriterElement = document.getElementById("typewriter");
+
+        if (typewriterElement) {
+            new Typewriter(typewriterElement, {
+                strings: [
+                    strings.hero.name,
+                    strings.hero.about,
+                    strings.hero.location,
+                ],
+                autoStart: true,
+                loop: true,
+                delay: 50,
+                deleteSpeed: 50,
+                pauseFor: 1700,
+                cursor: "|",
+            });
+        }
+    });
+</script>

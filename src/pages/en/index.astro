@@ -1,0 +1,23 @@
+---
+// import Welcome from "../../components/Welcome.astro";
+import Layout from "../../layouts/Layout.astro";
+import en from "../../i18n/en.json";
+import Header from "../../components/Header.astro";
+import Hero from "../../components/Hero.astro";
+import Depoiment from "../../components/Depoiment.vue";
+import Resume from "../../components/Resume.astro";
+import Skills from "../../components/Skills.vue";
+import Contact from "../../components/Contact.vue";
+import Footer from "../../components/Footer.astro";
+const locale = en;
+---
+
+<Layout strings={locale}>
+	<Header client:load strings={locale} />
+	<Hero strings={locale} />
+	<Skills client:only strings={locale} />
+	<Depoiment client:load strings={locale} />
+	<Resume strings={locale} />
+	<Contact client:load strings={locale} />
+	<Footer strings={locale} />
+</Layout>

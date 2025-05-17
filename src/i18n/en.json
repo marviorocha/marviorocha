@@ -1,0 +1,88 @@
+{
+    "title": "Marvio Rocha - FullStack Development in Ruby On Rails",
+    "description": "This is my personal portfolio.",
+    "menu": {
+        "home": "Home",
+        "skills": "Skills",
+        "projects": "Projects",
+        "resume": "Resume",
+        "depoiments": "Testimonials",
+        "contact": "Contact Me"
+    },
+    "hero": {
+        "name": "Hi, my name is Marvio",
+        "about": "A Creative Software Engineer",
+        "location": "Brazilian, and LLM Enthusiast",
+        "description": "Fullstack Developer specialized in corporate digital solutions",
+        "button": "View projects"
+    },
+    "skills": {
+        "title": "My Skills"
+    },
+    "resume": {
+        "title": "Resume Download",
+        "description": "Download my complete resume to see my experience, academic background, and detailed technical skills.",
+        "button": "Download PDF",
+        "url_download": "src/assets/MeuCurriculum-PT-BR.pdf"
+    },
+    "contact": {
+        "title": "Contact Me",
+        "label_name": "Your Name",
+        "label_email": "Email",
+        "label_mensagem": "Write your Message",
+        "button": "Send",
+        "description": "I'm available for new projects and opportunities. Contact me through the form or directly through the channels below:",
+        "success": "Message sent successfully! Thank you for contacting.",
+        "error": "An error occurred while sending the message. Please try again later."
+    },
+    "footer": {
+        "name": "Marvio Rocha",
+        "description": "Fullstack Developer specialized in corporate digital solutions",
+        "menu1": "Quick Links",
+        "menu2": "Social Media",
+        "copyright": "All rights reserved"
+    },
+    "testimonials": {
+        "title": "What people are saying",
+        "user1": {
+            "description": "Excellent service! The service exceeded my expectations. Strongly recommend!",
+            "name": "Ana Paula"
+        },
+        "user2": {
+            "description": "Very competent and dedicated professionals. Amazing result!",
+            "name": "João Santos"
+        },
+        "user3": {
+            "description": "Great experience! Work done with high quality and punctuality.",
+            "name": "Keltre Pereira"
+        }
+    },
+    "company": {
+        "title": "Recent Projects",
+        "button": "Visit Project",
+        "client1": {
+            "title": "StationPro.co",
+            "description": "Music player with minimalist interface for WordPress",
+            "image": "src/assets/projects/stationpro.jpg",
+            "url": "https://stationpro.co"
+        },
+        "client2": {
+            "title": "Ibeu Campos Macaé",
+            "description": "Institutional website for Ibeu Campos Macaé Language School",
+            "image": "src/assets/projects/ibeu.jpg",
+            "url": "https://ibeucamposmacae.com.br"
+        },
+        "client3": {
+            "title": "App Serene - Relax",
+            "description": "Mobile application to relax body and mind",
+            "image": "src/assets/projects/serene.jpg",
+            "url": "https://serene-br.netlify.app/"
+        },
+        "client4": {
+            "title": "Quiz",
+            "description": "Quiz application to test knowledge",
+            "image": "src/assets/projects/quiz.jpg",
+            "url": "https://stationpro.co"
+        }
+    }
+}

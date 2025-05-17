@@ -1,0 +1,40 @@
+---
+const { strings } = Astro.props;
+---
+
+<section
+  id="resume"
+  class="py-16 bg-[url(src/assets/resume-bg.png)] bg-cover bg-center bg-no-repeat"
+>
+  <div class="container mx-auto px-6 lg:px-36 text-center">
+    <h2 class="text-3xl font-bold text-neutral mb-6">{strings.resume.title}</h2>
+    <p class="mb-6 max-w-2xl mx-auto">
+      {strings.resume.description}
+    </p>
+    <a
+      target="_blank"
+      href={strings.resume.url_download}
+      class="btn btn-primary"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-5 w-5 mr-2"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+        ></path>
+      </svg>
+      {strings.resume.button}
+    </a>
+  </div>
+</section>
+<div
+  class="bg-[url('src/assets/bar-contato.png')] h-96 bg-no-repeat absolute mt-26 left-0 w-full -z-30"
+>
+</div>

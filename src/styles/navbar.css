@@ -1,0 +1,33 @@
+/* Menu de navegação estilizado com TailwindCSS */
+navigation {
+    background-color: #333;
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+    display: flex;
+    gap: 32px;
+}
+
+.nav-link {
+    color: #fff !important;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    background-color: #949494;
+}
+
+.logo {
+    font-weight: bold;
+}
