@@ -1,5 +1,6 @@
 <template>
-  <div class="bg-[url('src/assets/bar-footer.png')] h-96 -mt-26 bg-no-repeat absolute bg-right   w-full -z-30">
+  <div
+    class="bg-[url('https://res.cloudinary.com/delqcamot/image/upload/v1747498986/marviorocha.com/bar-footer_tns98m.png')] h-96 -mt-26 bg-no-repeat absolute bg-right   w-full -z-30">
   </div>
   <div class="mx-auto max-w-7xl pl-8">
     <h2 class="text-3xl  font-bold text-[#111827] mb-8">{{ strings.testimonials.title }}</h2>
