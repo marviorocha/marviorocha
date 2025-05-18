@@ -117,23 +117,15 @@ const { strings } = Astro.props;
 <!-- Cookie Consent by TermsFeed https://www.TermsFeed.com -->
 <script
   type="text/javascript"
-  src="https://www.termsfeed.com/public/cookie-consent/4.2.0/cookie-consent.js"
-  charset="UTF-8"></script>
-<script type="text/javascript" charset="UTF-8">
-  document.addEventListener("DOMContentLoaded", function () {
-    cookieconsent.run({
-      notice_banner_type: "simple",
-      consent_type: "express",
-      palette: "dark",
-      language: "pt",
-      page_load_consent_levels: ["strictly-necessary"],
-      notice_banner_reject_button_hide: true,
-      preferences_center_close_button_hide: true,
-      page_refresh_confirmation_buttons: false,
-      website_name: "www.marviorocha.com",
-    });
-  });
-</script>
+  id="cookieinfo"
+  src="//cookieinfoscript.com/js/cookieinfo.min.js"
+  data-bg="#645862"
+  data-fg="#FFFFFF"
+  data-link="#F1D600"
+  data-cookie="CookieInfoScript"
+  data-text-align="left"
+  data-close-text="Got it!"
+></script>
 
 <!-- Microsoft Clarity -->
 <script type="text/plain" data-cookie-consent="strictly-necessary">
@@ -150,9 +142,4 @@ const { strings } = Astro.props;
     y.parentNode.insertBefore(t, y);
   })(window, document, "clarity", "script", "kpkrm6lv0y");
 </script>
-<!-- end of Microsoft Clarity-->
-
-<noscript></noscript>
-<!-- End Cookie Consent by TermsFeed https://www.TermsFeed.com -->
-
-<!-- Below is the link that users can use to open Preferences Center to change their preferences. Do not modify the ID parameter. Place it where appropriate, style it as needed. -->
+ 

@@ -1,6 +1,6 @@
 {
     "title": "Marvio Rocha - FullStack Development in Ruby On Rails",
-    "description": "Este é meu portfólio pessoal.",
+    "description": "Desenvolvedor Full-Stack com mais de 11 anos de experiência, especializado no desenvolvimento e manutenção de aplicações web robustas. Minha expertise abrange desde o design até a implementação, com foco em entregar soluções escaláveis e de alta performance.",
     "menu": {
         "home": "Home",
         "skills": "Skills",
@@ -11,9 +11,9 @@
     },
     "hero": {
         "name": "Olá, meu nome é Marvio",
-        "about": "Um Criativo Engenheiro de Software",
-        "location": "Brasileiro, e LLM Entusiasta",
-        "description": "Desenvolvedor Fullstack especialista em soluções digitais corporativas",
+        "about": "Um Engeneiro de Software de aplicações escaláveis",
+        "location": "Com 11+ anos de experiência",
+        "description": "Full-Stack em Ruby on Rails, JavaScript, Python, Docker. Desenvolvimento de sistemas, APIs, automação e soluções digitais corporativas",
         "button": "Ver projetos"
     },
     "skills": {
