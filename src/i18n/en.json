@@ -11,7 +11,7 @@
     },
     "hero": {
         "name": "Hello, my name is Marvio",
-        "about": "A Software Engineer for scalable applications",
+        "about": "Software Engineer for scalable applications",
         "location": "With 11+ years of experience",
         "description": "Full-Stack in Ruby on Rails, JavaScript, Python, Docker. Systems development, APIs, automation, and corporate digital solutions",
         "button": "See projects"

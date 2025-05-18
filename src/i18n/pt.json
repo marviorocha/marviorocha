@@ -11,7 +11,7 @@
     },
     "hero": {
         "name": "Olá, meu nome é Marvio",
-        "about": "Um Engeneiro de Software de aplicações escaláveis",
+        "about": "Engeneiro de Software de aplicações escaláveis",
         "location": "Com 11+ anos de experiência",
         "description": "Full-Stack em Ruby on Rails, JavaScript, Python, Docker. Desenvolvimento de sistemas, APIs, automação e soluções digitais corporativas",
         "button": "Ver projetos"
