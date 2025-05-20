@@ -85,7 +85,8 @@
             "url": "https://marvio-quizapp.netlify.app"
         },
         "client5": {
-            "title": "Goiânia Prev - Social Security Portal for Public Servants",            "description": "Backend para Portal Goiânia Prev",
+            "title": "Goiânia Prev - Social Security Portal for Public Servants",
+            "description": "Backend para Social Security Portal for Public Servants",
             "image": "https://res.cloudinary.com/delqcamot/image/upload/v1747706095/marviorocha.com/projects/GoianiaPrev_vrehc1.jpg",
             "url": ""
         }
