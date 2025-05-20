@@ -71,5 +71,11 @@ const projects = [
     image: props.strings.company.client4.image,
     url: props.strings.company.client4.url
   },
+  {
+    title: props.strings.company.client5.title,
+    description: props.strings.company.client5.description,
+    image: props.strings.company.client5.image,
+    url: props.strings.company.client5.url
+  },
 ];
 </script>
