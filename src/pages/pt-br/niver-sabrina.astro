@@ -222,6 +222,7 @@
       height: 100%;
       position: relative;
       transform-style: preserve-3d;
+      -webkit-transform-style: preserve-3d;
       transition: transform .5s cubic-bezier(.2, .9, .3, 1.1);
     }
 
@@ -233,29 +234,41 @@
     .card-face {
       position: absolute;
       inset: 0;
+      backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+    }
+
+    .card-front {
+      transform: rotateY(180deg);
+    }
+
+    /* o filtro de "giz à mão" fica num elemento separado do que faz a virada 3D,
+     pois combinar filter + backface-visibility quebra o posicionamento em
+     alguns navegadores Android */
+    .face-inner {
+      width: 100%;
+      height: 100%;
       display: flex;
       align-items: center;
       justify-content: center;
-      backface-visibility: hidden;
       border-radius: 14px 40px 14px 40px / 40px 14px 40px 14px;
       filter: url(#roughen);
     }
 
-    .card-back {
+    .card-back .face-inner {
       background: var(--board-light);
       border: 2.5px dashed rgba(246, 241, 230, .55);
       font-size: 22px;
       color: rgba(246, 241, 230, .5);
     }
 
-    .card-front {
+    .card-front .face-inner {
       background: rgba(246, 241, 230, .08);
       border: 2.5px solid rgba(246, 241, 230, .75);
-      transform: rotateY(180deg);
       font-size: clamp(24px, 6vw, 32px);
     }
 
-    .card.matched .card-front {
+    .card.matched .card-front .face-inner {
       background: rgba(159, 211, 232, .15);
       border-color: var(--chalk-blue);
       box-shadow: 0 0 18px rgba(159, 211, 232, .35);
@@ -321,7 +334,7 @@
 
     .message-box {
       font-family: 'Nunito', sans-serif;
-      font-size: 1.25rem;
+      font-size: 16px;
       line-height: 1.75;
       color: rgba(246, 241, 230, .92);
       background: rgba(246, 241, 230, .06);
@@ -429,7 +442,7 @@
           <span style="bottom:10%; right:8%; animation-delay:1.5s;">🍎</span>
           <span style="top:44%; left:4%; animation-delay:.6s;">🎓</span>
         </div>
-        <div class="eyebrow">um joguinho especial que Marvio fez pra você</div>
+        <div class="eyebrow">um joguinho especial pra você</div>
         <h1 class="chalk-title">Feliz Aniversário,<br>Sabrina!</h1>
         <p class="subtitle">
           Professora que transforma qualquer sala em um lugar de encantamento.
@@ -451,35 +464,35 @@
       </section>
 
       <!-- ============ TELA 3: PARABÉNS ============ -->
-      <section id="screen-congrats" class="screen">
-        <div class="confetti-layer" id="confetti-layer" aria-hidden="true"></div>
-        <div class="cake">🎂</div>
-        <h1 class="chalk-title">Parabéns,<br>Linda Sabrina!</h1>
+<section id="screen-congrats" class="screen">
+  <div class="confetti-layer" id="confetti-layer" aria-hidden="true"></div>
+  <div class="cake">🎂</div>
+  <h1 class="chalk-title">Parabéns,<br>Linda Sabrina!</h1>
 
 
-        <div class="message-box">
-          <p>
-            Quero comemorar contigo mais um ano de vida e essa pequena homenagem é feita com muito carinho e
-            sinceridade.
-          </p>
-          <p>Você está completando mais um ano de vida e tem vários motivos para comemorar essa data tão importante para
-            você.</p>
-          <p>
-          <p>Em nossas memórias nós guardamos muita coisa, mas gostaria de lembrar que as melhores coisas da vida são
-            aquelas que realmente nos fazem felizes.</p>
-          <p>Espero que essa mensagem tenha arrancado risos e mais risos e te deixado pelo menos muito
-            feliz por essa minha grata surpresa. </p>
-          <p>O meu muito obrigado por você existir. Feliz aniversário! ♥️</p>
+  <div class="message-box">
+    <p>
+      Quero comemorar contigo mais um ano de vida e essa pequena homenagem é feita com muito carinho e
+      sinceridade.
+    </p>
+    <p>Você está completando mais um ano de vida e tem vários motivos para comemorar essa data tão importante para
+      você.</p>
+    <p>
+    <p>Em nossas memórias nós guardamos muita coisa, mas gostaria de lembrar que as melhores coisas da vida são
+      aquelas que realmente nos fazem felizes.</p>
+    <p>Espero que essa mensagem tenha arrancado risos e mais risos e te deixado pelo menos muito
+      feliz por essa minha grata surpresa. </p>
+    <p>O meu muito obrigado por você existir. Feliz aniversário! ♥️</p>
 
 
-          </p>
-          <div class="signature_over">Com carinho e admiração 🌹</div>
-          <div class="signature">Marvio Rocha - 22/08/26 👋</div>
-        </div>
-        <!-- FIM DA ÁREA EDITÁVEL -->
+    </p>
+    <div class="signature_over">Com carinho e admiração 🌹</div>
+    <div class="signature">Marvio Rocha - 22/08/26 👋</div>
+  </div>
+  <!-- FIM DA ÁREA EDITÁVEL -->
 
-        <button class="chalk-btn again-btn" id="btn-again">Jogar de novo 🔁</button>
-      </section>
+  <button class="chalk-btn again-btn" id="btn-again">Jogar de novo 🔁</button>
+</section>
 
     </div>
   </div>
@@ -626,8 +639,8 @@
           card.dataset.icon = icon;
           card.innerHTML = `
         <div class="card-inner">
-          <div class="card-face card-back">?</div>
-          <div class="card-face card-front">${icon}</div>
+          <div class="card-face card-back"><div class="face-inner">?</div></div>
+          <div class="card-face card-front"><div class="face-inner">${icon}</div></div>
         </div>`;
           card.addEventListener('click', () => flipCard(card));
           card.addEventListener('keydown', (e) => {
